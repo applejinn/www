@@ -1,0 +1,176 @@
+#content .content_area{overflow: hidden; font-family: 'Noto Sans KR', sans-serif; font-weight:400;
+    }
+#content .content_area h3 , h4{font-family: 'Noto Sans KR', sans-serif; font-weight:500; color: #333;
+    font-size: 40px; padding-top: 20px; text-align: center;}
+#content .content_area .tabs{margin-bottom: 150px;}
+    
+.box{width: 1200px; overflow: hidden; border-radius: 30px; height:350px ;
+    position: relative; margin-bottom: 100px;}
+.box div{width:20%; position:absolute;top:0; height:350px ;background-size: cover; opacity: 0;
+transition: width .5s , left .5s; }
+.box .box1{background: url(../images/content2/4dx.jpg) 0 0 no-repeat;left:0}
+.box .box2{background: url(../images/content2/cineforest.jpg) 0 0 no-repeat;left:20%}
+.box .box3{background: url(../images/content2/goldclass.jpg) 0 0 no-repeat;left:20%}
+.box .box4{background: url(../images/content2/cinedechef.jpg) 0 0 no-repeat;left:20%}
+.box .box5{background: url(../images/content2/cineliving.jpg) 0 0 no-repeat;left:20%}
+
+.box ul{overflow: hidden;}
+.box ul li{width: 20%; float: left; height: 350px; background-size: cover; position: relative;
+    }
+.box ul li a{display: block; height: 350px; position: relative; z-index: 20; color: #fff;
+    text-align: center; font-size: 30px; font-family: 'Roboto', sans-serif; 
+    font-weight:400; padding-top: 150px;}
+.box ul li a::after{content: ''; height: 3px; background: #fff; position: absolute;
+     top: 190px; width: 70px;}
+.box ul li:nth-child(1){background:url(../images/content2/s1.jpg) center;}
+.box ul li .btn1::after{left: 85px;}
+.box ul li:nth-child(2){background:url(../images/content2/s2.jpg) center;}
+.box ul li .btn2::after{left: 85px;}
+.box ul li:nth-child(3){background:url(../images/content2/s3.jpg) center;}
+.box ul li .btn3::after{left: 85px;}
+.box ul li:nth-child(4){background:url(../images/content2/s4.jpg) center;}
+.box ul li .btn4::after{left: 85px;}
+.box ul li:nth-child(5){background:url(../images/content2/s5.jpg) center;}
+.box ul li .btn5{padding-top: 130px;}
+.box ul li .btn5::after{left: 85px; top: 205px;}
+
+
+
+.conlist{position: relative; display: none;}
+.subtitle_area{margin: 0 0 100px 30px; background: #fafafa; height: 250px; position: relative;
+    border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; text-align: center;}
+.subtitle_area h3{font-family: 'Roboto', sans-serif;}
+.subtitle_area h3::after{content: ''; height: 3px; background: #e8171f; position: absolute;
+    width: 70px; top: 80px; left: 551px;}
+.subtitle_area span{text-align: center; display: block; margin-top: 45px; 
+    font-family: 'Roboto', sans-serif; font-weight:400; font-size: 22px;}
+.subtitle_area ul{overflow: hidden; margin: 40px 0 0 330px; font-size: 18px;}
+.subtitle_area ul li{float: left; margin-right:40px;}
+.subtitle_area ul li a{display: block;}
+.subtitle_area li a i{margin-left: 5px; color: #666;}
+
+/*4dx 영역*/
+.fourdx_con{padding: 0 100px;}
+.fourdx_con img{border-radius: 20px;}
+.fourdx_con p{font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 20px; 
+    line-height: 2em;}
+.fourdx_con .con1{overflow: hidden; margin-bottom: 100px;}
+.fourdx_con .con1 .img{float: left;}
+.fourdx_con .con1 p{float: right; margin-top: 150px;}
+
+.fourdx_con .con2{overflow: hidden; margin-bottom: 100px;}
+.fourdx_con .con2 .img{float: right;}
+.fourdx_con .con2 p{float: left; margin: 270px 140px 0 0; text-align: right;}
+
+.fourdx_con iframe{margin: 0 0 100px 100px;}
+
+.fourdx_con .con3{overflow: hidden; text-align: center; margin-bottom: 100px;}
+.fourdx_con .con3 img{margin-left: 190px;}
+.fourdx_con .highlight{font-size: 40px; font-family: 'Roboto', sans-serif; font-weight:500;
+color: #ccc; margin-bottom: 20px; display: block;}
+.fourdx_con .con3 p{margin-bottom: 50px;}
+
+.fourdx_con .con4{}
+.fourdx_con .con4 p{margin-bottom: 80px;}
+.fourdx_con .con4 .last{margin-left: 450px; font-size: 18px;}
+.fourdx_con .con4 ul{overflow: hidden; margin: 0 0 20px 200px; width: 600px;}
+.fourdx_con .con4 ul li{float: left; width: 100px; height: 100px; background: #e8171f;
+    margin: 0 50px 50px 0; border-radius: 20px;}
+.fourdx_con .con4 ul li img{border-radius: 0;}
+.fourdx_con .con4 ul li .img1{margin: 16px 13px;}
+.fourdx_con .con4 ul li .img2{margin: 18px 13px;}
+.fourdx_con .con4 ul li .img3{margin: 20px 18px;}
+.fourdx_con .con4 ul li .img4{margin: 15px 27px;}
+.fourdx_con .con4 ul li .img5{margin: 15px;}
+.fourdx_con .con4 ul li .img6{margin: 16px 13px;}
+.fourdx_con .con4 ul li .img7{margin: 15px;}
+.fourdx_con .con4 ul li .img8{margin: 25px 8px;}
+
+
+/*cineforet 영역*/
+.list2 .subtitle_area ul{margin-left: 320px;}
+.cineforet_con{margin-bottom: 150px;}
+.cineforet_con img{border-radius: 20px; margin-right: 100px;}
+.cineforet_con  p{display: block; font-size: 20px; width: 300px; line-height: 2em;}
+.cineforet_con .highlight{font-size: 40px; font-family: 'Noto Sans KR', sans-serif; font-weight:500;
+    color: #ccc; display: block; margin: 50px 30px;}
+.cineforet_con .con1{overflow: hidden; margin-bottom: 100px;}
+.cineforet_con .con1 img{float: left; margin-left: 150px;}
+.cineforet_con .con1 p{float: right; margin-right: 120px;}
+
+.cineforet_con .con2{overflow: hidden; margin: 0 0 150px 50px;}
+.cineforet_con .con2 img{float: right;}
+.cineforet_con .con2 p{float: left; width: 300px; margin-left: 80px;}
+
+.cineforet_con .con3 img{margin: 0 160px 100px 160px;}
+.cineforet_con .con3 p{width: 550px; text-align: center; margin: 100px 325px;}
+.cineforet_con .video{margin-left: 130px;}
+
+/*goldclass 영역*/
+.list3 .subtitle_area ul{margin-left: 290px;}
+.goldclass_con{margin-bottom: 150px;}
+.goldclass_con>img{margin: 0 120px; border-radius: 20px;}
+.goldclass_con .con1{margin-bottom: 50px;}
+.goldclass_con .con1 p{text-align: center; display: block; font-size: 30px; margin: 100px 0;}
+.goldclass_con .con1 span{color: #e8171f;}
+.goldclass_con .con1 ul{overflow: hidden; margin-left: 105px;}
+.goldclass_con ul li{float: left; width: 260px; text-align: center; margin: 0 105px 50px 0; 
+    font-size: 20px;}
+.goldclass_con .con1 img{width: 260px; height: 260px; border-radius: 50%; margin-bottom: 30px;}
+.goldclass_con .con2{overflow: hidden; padding-right: 90px;}
+.goldclass_con .con2 span{display: block; margin: 150px 0 50px 180px; color: #ccc; font-size: 40px; 
+    font-family: 'Roboto', sans-serif; font-weight:500;}
+.goldclass_con .con2 p{float: left; width: 600px; font-size: 20px; margin-left: 20px;
+    line-height: 2em; text-align: right;}
+.goldclass_con .con2 img{float: right; border-radius: 20px; width: 400px; height: 350px;
+    margin-top: 150px;}
+.goldclass_con .last{font-size: 18px; float: right; display: block; line-height: 2em;
+    text-align: right; margin: 50px 90px 150px 0;}
+
+/*cine de chef 영역*/
+.list4 .subtitle_area ul{margin-left: 390px;}
+.cinedechef_con span{text-align: center; font-size: 22px; display: block; line-height: 2em;
+    margin-bottom: 150px;}
+.cinedechef_con .text{font-size: 20px;}
+.cinedechef_con h4{left: 80px; top: -80px;}
+.cinedechef_con h4 span{font-size: 30px; color: #fff; text-align: right;}
+.cinedechef_con .con1 h4{position: absolute;}
+.cinedechef_con .con1 h4::after{content: ''; background: #fff; width: 60px; height: 3px; 
+    position: absolute; left: 190px; top: 140px;}
+.cinedechef_con .con1{position: relative;}
+.cinedechef_con .con1 .img1{margin: 0 600px 100px 150px;}
+.cinedechef_con .con1 .img2{margin-left: 500px;}
+.cinedechef_con .con1 .text{text-align: right; margin-top: 100px;}
+
+.cinedechef_con .con2{position: relative; margin-bottom: 100px;}
+.cinedechef_con .con2 .img1{margin: 0 0 100px 800px;}
+.cinedechef_con .con2 .img2{margin-left: 400px;}
+.cinedechef_con .con2 h4{left: 880px; top: -80px; position: absolute;}
+.cinedechef_con .con2 h4::after{content: ''; background: #fff; width: 60px; height: 3px; 
+    position: absolute; right: 65px; top: 140px;}
+.cinedechef_con .con2 .text{text-align: left; margin: 100px 0 0 80px;}
+
+.cinedechef_con .con3{overflow: hidden;}
+.cinedechef_con .con3 h4{font-size: 40px; font-family: 'Roboto', sans-serif; font-weight:500;
+    color: #ccc; margin: 0 0 50px 100px; text-align: left;}
+.cinedechef_con .con3 img{margin: 0 148px 100px;}
+.cinedechef_con .con3 .text{margin-bottom: 0;}
+
+/*cinelivingroom 영역*/
+.list5 .subtitle_area ul{margin-left: 550px;}
+.cineliving_con>span{text-align: center; font-size: 25px; line-height: 2em; margin-bottom: 180px;
+    display: block;}
+.cineliving_con  img{border-radius: 20px;}
+.cineliving_con .con1 .text,.cineliving_con .con3 .text{text-align: left; font-size: 20px; float: right;
+    margin: 130px 250px 0 0;line-height: 2em;}
+.cineliving_con  .con1{overflow: hidden; margin: 130px 0;}
+.cineliving_con .con1 img, .con3 img{float: left; margin-left: 100px;}
+.cineliving_con  .con2{overflow: hidden; margin-bottom: 130px;}
+.cineliving_con  .con2 .text{float: left; font-size: 20px;line-height: 2em; text-align: right;
+    margin: 150px 0 0 200px;}
+.cineliving_con .con2 img{float: right; margin-right: 100px;}
+.cineliving_con  .con3{overflow: hidden; margin-bottom: 150px;}
+.cineliving_con .video{margin-left: 90px;}
+.cineliving_con .big_text{font-size: 30px; font-weight: 500; width: 200px; margin-bottom: 50px; 
+    display: block;}
+.cineliving_con .con2 .big_text{margin-left: 200px;}

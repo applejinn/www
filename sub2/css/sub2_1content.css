@@ -1,0 +1,91 @@
+#content .content_area{overflow: hidden; font-family: 'Noto Sans KR', sans-serif; font-weight:400;}
+.content_area h4{font-size: 35px; font-weight: 500; margin-bottom: 30px;}
+
+
+/*tab 영역*/
+.tabs {margin-bottom: 150px; background: url(../images/content1/cinema.jpg); 
+    height: 310px; padding-top: 30px;} 
+.tabs .tab_menu{overflow: hidden; text-align: center;}
+.tabs .tab_menu li{float: left;}
+
+.tabs a.tab{display:block; ; padding: 10px 20px; border-top: 1px solid #ccc;
+          font-size: 20px; color: #fff; position: relative;} 
+.tabs .tab i{position: absolute; color: #fafafa; font-size: 22px; display: none;}
+.tabs .tab1{margin-left: 165px;}
+.tabs .tab1 i, .tab2 i, .tab3 i, .tab4 i, .tab6 i, .tab8 i{left: 33px; top: 35px;}
+.tabs .tab5 i{position: absolute; left: 55px; top: 35px;}
+.tabs .tab7 i{position: absolute; left: 55px; top: 35px;}
+.tabs .tab9 i{position: absolute; left: 78px; top: 35px;}
+.tabs .con li{background:#fafafa; width: 720px; height: 150px; border-radius: 20px;
+    padding: 30px 80px; display: none; margin: 0 auto;} 
+.tabs .con a{text-align: justify; font-size: 18px; line-height:2em;}
+
+
+.gangnam{position: relative; margin-bottom: 60px; overflow: hidden;}
+.gangnam h3{font-size: 40px; font-weight: 500; margin: 0 0 60px 30px}
+.gangnam h3::before{content: ''; width: 8px; height: 40px; background: #e8171f; position: absolute;
+    left: 10px; top: 12px;} 
+.gangnam ul{list-style: disc; line-height: 2em; font-size: 18px; margin: 0 0 40px 50px;}
+.gangnam span{display: block; width: 155px; height: 155px; border-radius: 50%; background: #fafafa;
+    float: left; color: #666; margin: 0 50px 0 20px; text-align: center;}
+.gangnam span img{margin: 30px 40px 20px 40px;}
+
+.information{width: 1195px; overflow: hidden; border: 1px solid #ccc;
+    border-radius: 30px; margin-bottom: 150px;}
+.information ul{margin: 60px 70px;}
+.information ul li{float: left; width: 450px; margin-bottom: 50px;}
+.information dl{font-size: 20px; line-height: 2em; margin-bottom: 30px;}
+.information .last{margin-top: 65px;}
+.information dl dt{margin-bottom: 10px;}
+.information dl dd{margin-left: 20px;}
+.information ul .transportation{margin: 0 50px;}
+
+.now_showing{margin-bottom: 150px;}
+.now_showing h4{text-align: center; margin-bottom: 70px;}
+.now_showing ul{overflow: hidden;}
+.now_showing ul li{float: left; margin-left: 85px;}
+.now_showing ul li a{font-size: 20px; text-align: center; display: block; float: left;
+    border: 1px solid #ccc; border-radius: 15px; width: 100px;  
+    margin: 30px 15px 0 0; padding: 10px 15px;}
+.now_showing ul li i{font-size: 20px; text-align: center; display: block; float: left; color: #e75888;
+    margin: 5px 0 0 18px;}
+.now_showing ul li .btn1:hover{background: #ccc; color: #fff;}
+.now_showing ul li img{width: 284px; height: 362px; margin-bottom: 50px;}
+.now_showing dl{text-align: justify; position: relative;}
+.now_showing dt{font-size: 22px; margin: 0 0 20px 40px;}
+.now_showing dd{font-size: 18px;}
+.now_showing .btn2{background: rgba(232, 23, 31,.9); color: #fff; border: 1px solid #e8171f;}
+.now_showing li .movie1::before{content: '12'; width: 32px; height: 32px; border-radius: 50%; background: #2d6ac1;
+    color: #fff; font-size: 15px; text-align: center; font-weight: 400; position: absolute; left: 0; top: 0;
+    line-height: 30px;} 
+.now_showing li .movie2::before{content: '15'; width: 32px; height: 32px; border-radius: 50%; background: #dfa43b;
+    color: #fff; font-size: 15px; text-align: center; font-weight: 400; position: absolute; left: 0; top: 0;
+    line-height: 30px;} 
+
+.ticket_cost{margin-bottom: 150px; overflow: hidden;}
+.ticket_cost h4{margin-bottom: 60px;}
+.ticket_cost h5{font-size: 25px; font-weight: 500; margin: 0 0 30px 10px;}
+.ticket_cost .tables{width: 570px; font-size: 20px; float: left; margin: 0 60px 100px 0;}
+.ticket_cost .threed, .ticket_cost .sweetbox{margin-right: 0;}
+.ticket_cost .screenx,.ticket_cost .sweetbox{margin-bottom: 0;}
+.ticket_cost table{width: 100%;}
+.ticket_cost thead{border-top: 2px solid #666;}
+.ticket_cost thead tr th{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; 
+    padding: 10px 0; font-weight: 500;background: #eaeaea;}
+.ticket_cost tbody .table1{border-top: 2px solid #ccc;}
+.ticket_cost tbody{border-bottom: 1px solid #ccc;}
+.ticket_cost tbody th{font-weight: 500; border-right: 1px solid #ccc;}
+.ticket_cost tbody td{text-align: center; color: #333; line-height: 2em; border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc; padding: 8px 0;}
+.ticket_cost .last{border-right: none;}
+
+.preference{margin-bottom: 150px; line-height: 2.5em; width: 830px;}
+.preference h4{margin-bottom: 60px;}
+.preference ul, .preference span{font-size: 20px;}
+.preference ul{margin-left: 10px;}
+.preference span{margin-left: 20px; color: #e8171f;}
+
+
+
+
+

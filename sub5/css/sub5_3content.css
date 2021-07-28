@@ -1,0 +1,48 @@
+#content .content_area{overflow: hidden; font-family: 'Noto Sans KR', sans-serif;}
+#content .content_area .title{font-family: 'Nanum Gothic', sans-serif; font-weight:400; font-size: 25px;
+    color: #333; text-align: center; display: block; text-transform: uppercase; margin-bottom: 120px;}
+#content .content_area h3{font-weight:500; font-size: 40px; color: #333;
+    margin: 0 0 70px 30px}
+
+
+.type{overflow: hidden; margin-bottom: 80px; position: relative;}
+.type h3::before{content: ''; width: 8px; height: 40px; background: #e8171f; position: absolute; 
+    top: 2px; left: 10px;}
+.type ul{overflow: hidden;}
+.type ul li{border: 1px solid #fff; width: 395px; float: left; transition: all .5s;
+    border-radius: 30px;}
+.type ul li:hover{border: 1px solid #ccc}
+.type ul li img{width: 285px; height: 150px; margin: 40px 0 0 55px;}
+.type ul li p{margin: 50px 0; text-align: center; font-size: 25px;}
+.type li .btn{display: block; width: 135px;float: left; margin: 25px 0 50px 135px;}
+.type li .btn a{display: block; background: rgba(232,32, 31, .9); text-align: center; color: #fff;
+    font-size: 18px; transition: all .5s; padding-top: 5px; padding-bottom: 5px;}
+
+.information{text-align: justify; font-size: 20px; line-height: 1.8em; color: #666;
+    margin-left: 50px; overflow: hidden; margin-bottom: 150px;}
+.information span{display: block; color: #e8171f;}
+.information .last_text{margin-top: 15px;}
+.information .last_text span{font-weight: 500; color: #666;}
+
+.inquiry{position: relative; margin-bottom: 150px;}
+.inquiry h3::before{content: ''; width: 8px; height: 40px; background: #e8171f; position: absolute; 
+    top: 2px; left: 10px;}
+.inquiry .check{font-size: 20px; margin: 0 0 20px 30px;}
+.inquiry .check span{color: #e8171f;}
+.inquiry .mail_box{font-size: 20px; line-height: 2em;}
+.inquiry .mail_box .control-group{border-bottom: 1px solid #ccc; padding: 20px 30px; overflow: hidden;}
+#content .help{height: 200px; outline: none; border: 0;}
+.mail_box label{font-size: 18px;}
+.mail_box .form-group span{margin-right: 20px; color: #e8171f;}
+#content .form-control {
+    outline: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    border: none;
+    background: #f4f4f4;
+    float: right;
+    width: 950px;
+    padding: 10px 0 10px 20px;
+}
+.send button{width: 50px; background-color: #e8171f; color: #fff; border-radius: 5px;
+    display: block; outline: none; border-style: none; padding: 10px; margin: 0 auto;}
+.send button:hover{color: #e8171f; background-color: #fff; border: 1px solid #e8171f;}

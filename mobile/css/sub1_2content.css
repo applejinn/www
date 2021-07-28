@@ -1,0 +1,28 @@
+.visual {position: relative; margin-top: 49px; height: 150px; width: 100%; border-radius: 0 0 20px 20px;
+    background-size: cover; background: url(../images/sub1_visualx2.png) no-repeat center;}
+
+#content{margin: 20px 20px 80px; text-align: center;}
+#content h2{margin-bottom: 20px;}
+
+.history{position: relative; overflow: hidden;}
+.history>img{width: 100%; margin-bottom: 50px; border-radius: 20px;}
+.history h3{margin: 40px 0; text-align: center; font-weight: 500;
+    font-size: 20px; font-family: 'Roboto', sans-serif;}
+
+.con{display: block; margin: 0 auto;}
+.con dl{ background: #fafafa; text-align: justify; margin-bottom: 50px; padding: 20px;
+    border-top: #ccc 1px solid; border-bottom: #ccc 1px solid;}
+.con dt{font-family: 'Roboto', sans-serif; font-weight:400; font-style: italic; font-size: 16px;
+    color: #fff; background: rgba(232, 23, 31, .9); padding: 0 6px; display: inline-block;
+    margin-bottom: 20px; text-align: justify;}
+.con dd{font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 18px; line-height: 2em;}
+
+
+/* tab 영역 */
+.tab_menu{overflow: hidden; margin: 0 auto 20px; font-family: 'Roboto', sans-serif; 
+    font-weight:400}
+.tab_menu li{float: left; width: 25%;}
+.tab_menu li a{display: block; font-size: 12px; padding: 8px 0; text-align: center;
+color: #333; transition: all .5s; background: #fafafa; border: #fafafa 1px solid;}  
+.tabs .history {display: none;} 
+

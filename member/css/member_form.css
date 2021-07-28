@@ -1,0 +1,75 @@
+body{background:url(../images/member_bg.jpg) no-repeat center bottom; background-size: cover; 
+    margin: 80px auto 0 auto; background-attachment: fixed;}
+#content{width: 650px; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 100px;
+    background-color: #fafafa; padding: 50px 50px 0; border-radius: 20px; position: relative;}
+#content h2{margin: 20px 0 50px; font-size: 28px;}
+#content h2::before{content: ''; position: absolute; top: 73px; left: 38px; width: 5px; height: 28px;
+background: #e8171f;}
+.loginWrapper{margin: 150px 0}
+
+.logo2{display: block; width: 113px; height: 49px; background: url(../images/logo.png) no-repeat center center; text-indent: -999%; margin: 0 auto;
+    background-size: cover; margin-bottom: 50px;}
+
+input, select{padding: 5px; border-radius: 2px; font-size: 18px; border: 0; background: rgba(232, 23, 31,.1); outline: none; width: 633px}
+
+.info{padding: 0 0 20px 10px; color: #777}
+.info i{margin-right: 10px}
+
+.joinBox{overflow: hidden;}
+.joinBox div{margin-bottom: 30px;}
+.joinBox input{height: 40px; padding-left: 30px}
+.joinBox .nameBox{float: left}
+.joinBox .nameBox1{float: left; position: relative; left: 20px}
+.idBox{position: relative}
+.idBox #loadtext{position: absolute; top: 10px; right: 25px; font-size: 12px; font-family: 'Nanum Gothic', sans-serif;}
+.idBox input[type="button"] { padding-left: 0px; margin-left: 10px; width: 188px; background-color: #eed; color: #333}
+
+.pwBox .mb10{margin-bottom: 15px}
+
+
+.nameBox input{width: 290px}
+#loadtext2 { position: absolute; top: 10px; right: 25px; font-size: 12px; }
+
+.telBox {clear: both}
+.telBox select {width: 100px; border: 0px; font-size: 18px; color: #777; height: 50px;
+    padding-left: 20px;; margin-right: 10px;}
+.telBox input {width: 180px; margin: 10px;}
+.mailBox input {width: 200px; margin: 0 10px;}
+#email1{margin-left: 0;}
+
+.subMit{margin-top: 100px; padding-bottom: 30px; overflow: hidden;}
+.subMit input,.subMit .gomain{ padding-left: 0px; width: 200px; height: 50px; font-size: 15px; font-weight: 700; cursor: pointer; display: block;
+ float: left;}
+.subMit input{margin: 0 45px 0 100px;}
+.subMit .gomain{text-align: center; background:#999;}
+.subMit .gomain a{color: #fff; font-family: 'Nanum Gothic', sans-serif; display: block; padding-top: 15px;}
+.subMit input[type="button"] { color: #fff; background: #e8171f;}
+
+.your_id{font-size: 22px; margin: 20px 0 0 30px; display: block;}
+
+
+/* 아이디찾기 */
+#col2 #title p{text-align: center; margin-bottom: 30px;}
+#id_input_button{position: relative;}
+#id_input_button .nameBox{overflow: hidden;}
+#id_input_button .telBox{margin-bottom: 30px;}
+#id_input_button input{margin: 20px 0; padding: 5px 10px; height: 40px;}
+#id_input_button .nameBox input{width: 100%;}
+#id_input_button input[type="button"], .go_join { color: #fff; background: #e8171f;
+    font-size: 16px; display: block; width: 100%; box-sizing: border-box;}
+
+.go{overflow: hidden; margin: 20px 0;}
+.go i{margin-right: 5px;}
+.go li{width: fit-content; display: block; margin: 20px 0;}
+.go li:first-child{float: left;}
+.go li:last-child{float: right;}
+.go li:last-child a{margin-left: 10px; text-decoration: underline;
+    font-weight: 700;}
+
+.find{margin-top: 20px;}
+#login2 #join_button{text-align: center; padding: 80px 50px; border-top: 1px solid #ccc;
+    overflow: hidden;}
+#login2 #join_button p{margin-bottom: 30px;}
+#join_button a{padding: 10px 10px 5px; border-radius: 2px; font-size: 16px; height: 40px;}
+.loadtexton{text-align: center; border: 1px dashed #ccc; width: 500px; overflow: hidden; margin: 20px 0 20px -250px; position: relative; left: 50%; border-radius: 10px; display: block; padding: 20px 0; line-height: 1.5em}
+.loadtexton strong:first-of-type{font-size: 20px; line-height: 2em}

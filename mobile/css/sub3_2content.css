@@ -1,0 +1,36 @@
+.visual {position: relative; margin-top: 49px; height: 150px; width: 100%; border-radius: 0 0 20px 20px;
+    background-size: cover; background: url(../images/sub3_visual.png) no-repeat center;}
+
+#content{margin: 20px 0 80px; text-align: justify; overflow: hidden;
+    font-family: 'Noto Sans KR', sans-serif; font-weight:400;}
+#content h3{margin: 30px 0; font-size: 20px; font-weight: 500;}
+
+.con_box1, .con_box2,.con_box3{overflow: hidden;}
+.con_box1, .con_box2{margin: 0 20px;}
+.con_box1{ background: url(../images/back01.png) no-repeat;}
+.con_box1_1,.con_box1_2{}
+.con_box2_1,.con_box2_2{}
+.con_box1 li, .con_box2 li{margin-bottom: 50px; overflow: hidden;}
+.con_box1 img,.con_box2 img{width: 40%; transition: all .5s; animation: circular-jump 8s 0s linear infinite;}
+.con_box1_1 img,.con_box2_1 img{float: left; margin-right: 5%; z-index: 30;}
+.con_box1_2 img,.con_box2_2 img{float: right; border-radius: 50%; margin-left: 5%;}
+.con_box1_1 dl, .con_box2_1 dl{margin-left: 45%;}
+.con_box1_2 dl, .con_box2_2 dl{margin-right: 45%;}
+.con_box1 .mid_text{margin: 80px 0; text-align: center; line-height: 2em; font-size: 16px;}
+.con_box2{background: url(../images/back02.png) no-repeat;}
+@keyframes circular-jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    }
+.con_box3 img{width: 100%;}
+.con_box3 ul{background: #fafafa; padding: 30px 20px 20px;}
+.con_box3 dl{ margin-bottom: 30px;}
+
+#content dl{line-height: 2em;}
+#content dt{font-size: 18px; margin-bottom: 10px; font-weight: 500;}
+#content dd{font-size: 16px;}
+#content .highlight{color: #e8171f;;}

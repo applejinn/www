@@ -1,0 +1,32 @@
+.visual {position: relative; margin-top: 49px; height: 150px; width: 100%; border-radius: 0 0 20px 20px;
+    background-size: cover; background: url(../images/sub4_visual.png) no-repeat center;}
+
+#content{margin: 20px 20px 80px; text-align: justify; overflow: hidden;
+    font-family: 'Noto Sans KR', sans-serif; font-weight:400;}
+#content h3{margin: 30px 0; font-size: 20px; font-weight: 500;}
+#content h4{font-size: 16px; margin-bottom: 20px;}
+
+.process{position: relative; border-bottom: #ccc 1px solid; margin-bottom: 50px;}
+/* .process h3::before{content: ''; width: 8px; height: 40px; background: #e8171f; position: absolute; 
+    top: 12px; left: 10px;} */
+.process ol{overflow: hidden; margin: 0 auto 50px;}
+.process li{width: 15%; border-radius: 50%; background: #fafafa; text-align: center;
+    float: left; margin-right: 1%; position: relative; padding: 5% 2%;}
+.process .last{margin-right: 0;}
+.process li img{width: 30px; height: 30px; margin-bottom: 10px;}
+
+.process dl{text-align: center; font-size: 14px;}
+.process dl dt{margin-bottom: 10px; font-weight: 500;}
+
+.process p{text-align: justify; line-height: 2em; font-size: 16px;}
+.process span{text-align: justify; line-height: 2em; color: #e8171f; display: block;
+    margin-bottom: 50px; font-size: 16px;}
+
+.type ul{overflow: hidden;}
+.type ul li{width: 48%; float: left; margin: 10px 1% 20px; box-sizing: border-box; 
+    box-shadow: 1px 1px 10px 0px #ccc; border-radius: 15px;
+} 
+.type ul li img{width: 100%; border-radius: 15px 15px 0 0;
+    border-bottom: 1px solid #ccc;}
+.type dl{font-size: 14px; line-height: 2em; text-align: left; padding: 20px;}
+.type dl dt{font-weight: 500; font-size: 16px; margin-bottom: 5px;}

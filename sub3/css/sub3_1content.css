@@ -1,0 +1,23 @@
+#content .content_area{overflow: hidden; font-family: 'Noto Sans KR', sans-serif; font-weight:400;}
+
+.directors{margin-bottom: 150px; overflow:hidden;}
+.construction{margin-bottom: 150px}
+.allocation_table{margin-bottom: 150px;}
+.content_area h3{float:left;font-size: 30px; font-weight: 500; margin-bottom:30px}
+.content_area p{float:right;position:relative; top:40px; right:10px}
+
+table{width: 100%; font-size: 20px; color: #333; 
+     border-collapse: collapse;}
+tr{border-bottom: 1px solid #ccc}
+thead{border-top: 2px solid #666}
+thead th{background: rgba(232,23,31,.1); padding: 40px 0;
+     border-left: 1px solid #ccc;}
+tbody td{border-left: 1px solid #ccc; padding: 30px 0;
+    text-align: center; color: #666;}
+tbody th{display:block; padding: 40px 0; font-weight:500; color: #666; 
+    background: rgba(232,23,31,.1);}
+.allocation_table tbody th{background: none;}   
+.construction_table tbody th{background: none;}   
+ 
+tbody .first{text-align: center;}
+.first{border-left:0}

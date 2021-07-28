@@ -1,0 +1,98 @@
+
+#content .content_area{margin-bottom: 150px;}
+
+#content .content_area .title{font-family: 'Nanum Gothic', sans-serif; font-weight:400; font-size: 25px;
+    color: #333; text-align: center; display: block; margin-bottom: 120px; line-height: 2em;}
+#content .content_area h3{font-family: 'Noto Sans KR', sans-serif; font-weight:500; color: #333;
+        font-size: 40px; text-align: center; margin-bottom: 100px;}
+
+
+
+.content_area img{position: absolute;} 
+.content_area .con dl{width: 300px; height: 125px;}
+.content_area .con dt{font-family: 'Roboto', sans-serif; font-weight:400; font-style: italic; font-size: 30px;
+    color: #b31217; margin-bottom: 20px;}
+.content_area .con dd{font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 20px; line-height: 2em;}
+  
+/* tab 영역 */
+.content_area .tab_menu{overflow: hidden; width: 815px;
+    margin: 0 auto 80px; font-family: 'Roboto', sans-serif; font-weight:400}
+.content_area li{float: left;}
+.content_area li a{display: block; width: 200px; font-size: 20px; padding: 25px 0; text-align: center;
+    color: #333; transition: all .5s; background: #fafafa; border: #fafafa 1px solid;}  
+.content_area li a:hover{border: 1px solid #e8171f;}
+
+.tabs .history {display: none;} 
+
+
+/* 2011~2021년 영역 */
+.history1{position: relative; overflow: hidden;}
+.history1 h3::before{content: ''; width: 5px; height: 40px; background: #e8171f;
+    position: absolute; left: 487px; top: 12px;}
+.history1 h3::after{content: ''; width: 5px; height: 40px; background: #e8171f;
+    position: absolute; left: 705px; top: 12px;} 
+.history1 .img1{width: 266px; height: 266px; border-radius: 133px; right: 100px; top: 320px;}
+.history1 .img2{width: 300px; height: 300px; border-radius: 150px; left: 100px; top: 550px;}
+.history1 .img3{width: 280px; height: 280px; border-radius: 140px; right: 80px; top: 1250px;}
+.history1 .con{width: 26px; height: 1595px; display: block;
+    background: url(../images/content3/2011_2021.jpg) no-repeat; margin: 0 auto;}
+
+.history1 .con .text1_1{margin-left: 70px;}     
+.history1 .con .text1_2{margin: 58px 0 0 -350px; text-align: right;}     
+.history1 .con .text1_3{margin: 145px 0 0 70px;} 
+.history1 .con .text1_4{margin: 138px 0 0 -350px; text-align: right;}
+.history1 .con .text1_5{margin: 110px 0 0 70px;} 
+.history1 .con .text1_6{margin: 65px 0 0 -350px; text-align: right;}
+.history1 .con .text1_7{margin: 120px 0 0 70px;}
+
+/* 2010~2005년 영역 */
+.history2{position: relative; overflow: hidden;}
+.history2 h3::before{content: ''; width: 5px; height: 40px; background: #e8171f;
+    position: absolute; left: 477px; top: 12px;}
+.history2 h3::after{content: ''; width: 5px; height: 40px; background: #e8171f;
+    position: absolute; left: 715px; top: 12px;}   
+.history2 .img1{width: 306px; height: 306px; border-radius: 153px; right: 160px; top: 660px;}
+.history2 .img2{width: 300px; height: 300px; border-radius: 150px; right: 130px; top: 1260px;}
+.history2 .img3{width: 248px; height: 248px; border-radius: 124px; left: 150px; top: 400px;}
+.history2 .con{width: 26px; height: 1653px; display: block;
+    background: url(../images/content3/2010_2005.jpg) no-repeat; margin: 0 auto;}
+.history2 .con .text2_1{margin: 55px 0 0 -350px; text-align: right;}     
+.history2 .con .text2_2{margin: 118px 0 0 70px;} 
+.history2 .con .text2_3{margin: 205px 0 0 -350px; text-align: right;}    
+.history2 .con .text2_4{margin: 193px 0 0 70px;} 
+.history2 .con .text2_5{margin: 170px 0 0 -350px; text-align: right;}   
+.history2 .con .text2_6{margin: 150px 0 0 70px;} 
+
+
+
+/* 2004~2000년 영역 */
+.history3{position: relative; overflow: hidden;}
+.history3 h3::before{content: ''; width: 5px; height: 40px; background: #e8171f;
+    position: absolute; left: 477px; top: 12px;}
+.history3 h3::after{content: ''; width: 5px; height: 40px; background: #e8171f;
+    position: absolute; left: 715px; top: 12px;}
+.history3 .img1{width: 300px; height: 300px; border-radius: 150px; left: 90px; top: 350px;}
+.history3 .img2{width: 280px; height: 280px; border-radius: 140px; left: 150px; top: 970px;}
+.history3 .con{width: 26px; height: 1337px; display: block;
+    background: url(../images/content3/2004_2000.jpg) no-repeat; margin: 0 auto;}
+.history3 .con .text3_1{margin: 30px 0 0 -350px; text-align: right;}     
+.history3 .con .text3_2{margin: 102px 0 0 70px;} 
+.history3 .con .text3_3{margin: 218px 0 0 -350px; text-align: right;}    
+.history3 .con .text3_4{margin: 190px 0 0 70px;} 
+.history3 .con .text3_5{margin: 168px 0 0 -350px; text-align: right;}  
+
+/* 1999~1996년 영역 */
+.history4{position: relative; overflow: hidden;}
+.history4 h3::before{content: ''; width: 5px; height: 40px; background: #e8171f;
+    position: absolute; left: 477px; top: 12px;}
+.history4 h3::after{content: ''; width: 5px; height: 40px; background: #e8171f;
+    position: absolute; left: 715px; top: 12px;}
+.history4 .img1{width: 252px; height: 252px; border-radius: 126px; left: 200px; top: 680px;}
+.history4 .img2{width: 290px; height: 290px; border-radius: 145px; right: 120px; top: 360px;}
+.history4 .img3{width: 270px; height: 270px; border-radius: 135px; right: 190px; top: 980px;}
+.history4 .con{width: 26px; height: 1096px; display: block;
+    background: url(../images/content3/1996_1999.jpg) no-repeat; margin: 0 auto;}
+.history4 .con .text4_1{margin-left: 70px;}     
+.history4 .con .text4_2{margin: 153px 0 0 -350px; text-align: right;}     
+.history4 .con .text4_3{margin: 206px 0 0 70px;} 
+.history4 .con .text4_4{margin: 158px 0 0 -350px; text-align: right;}

@@ -1,0 +1,9 @@
+.visual {position: relative; margin-top: 49px; height: 150px; width: 100%; border-radius: 0 0 20px 20px;
+    background-size: cover; background: url(../images/sub1_visualx2.png) no-repeat center;}
+
+#content{margin: 20px 20px 80px; text-align: center;}
+#content img{width: 248px; height: 317px; margin: 50px auto; display: block;}
+
+#content p{font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size: 16px; margin-bottom: 20px;
+    text-transform: uppercase; line-height: 2em; text-align: justify;}
+#content p span{color: #e8171f;}

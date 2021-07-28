@@ -1,0 +1,63 @@
+#content .content_area{overflow: hidden; font-family: 'Noto Sans KR', sans-serif; font-weight:400;}
+#content .content_area .title{font-family: 'Nanum Gothic', sans-serif; font-weight:400; font-size: 25px;
+    color: #333; text-align: center; display: block; text-transform: uppercase; margin-bottom: 120px;}
+#content .content_area .title .highlight{color: #e8171f;} 
+#content .content_area dt{font-size: 25px; font-weight: 500; margin-bottom: 50px;}
+#content .content_area .text dd{font-size: 20px; line-height: 2em}
+
+#content .content_area .con_box1{width: 1200px; background: url(../images/content3/back1.png) no-repeat;}
+
+#content .content_area .con_box1_1{overflow: hidden; margin-bottom: 150px; width: 1200px; height: 550px;}
+#content .con_box1_1 img{float: left; transition: all .5s; animation: circular-jump 8s 0s linear infinite;}
+@keyframes circular-jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    }
+        
+
+.con_box1_1 .text{float: left; width: 593px; margin: 100px 0 0 60px;}
+
+
+.con_box1 .mid_text{font-size: 22px; width: 554px; text-align: center; line-height: 2em;
+    margin: 0 auto 150px;}
+
+.con_box1_2{width: 1200px; overflow: hidden; margin-bottom: 200px; height: 448px;}
+.con_box1_2 img{width: 398px; height: 398px; border-radius: 50%; float: right;
+    transition: all .5s; animation: circular-jump 8s 0s linear infinite;}
+.con_box1_2 .text{float: right; width: 535px; margin: 100px 80px 0 0; text-align: right;}
+
+.con_box2{width: 1200px; margin-bottom: 200px;}
+.con_box2 .img_box{width: 1200px; position: relative; height: 500px;}
+.con_box2 .img2_1{width: 338px; height: 338px; border-radius: 50%; z-index: 10; position: absolute;
+    left: 80px; top: 50px; box-shadow: 5px 5px 5px 5px #ccc;}
+.con_box2 .img2_2{width: 430px; height: 430px; border-radius: 50%; z-index: 30; position: absolute;
+    left: 383px; top: 0; box-shadow: 5px 5px 5px 2px #ccc;}
+.con_box2 .img2_3{width: 338px; height: 338px; border-radius: 50%; z-index: 10; position: absolute;
+    right: 80px; top: 50px; box-shadow: 5px 5px 5px 5px #ccc;}
+.con_box2  .text{text-align: center;}
+.con_box2  .text dd{width: 530px; margin: 0 auto;}
+
+.con_box3{width: 1200px; background: url(../images/content3/back2.png) no-repeat;
+    height: 1446px;}
+
+.con_box3_1{overflow: hidden; margin-bottom: 150px; width: 1200px; height: 550px;}
+.con_box3_1 img{float: left; transition: all .5s; animation: circular-jump 8s 0s linear infinite;}
+.con_box3_1 .text{float: left; width: 570px; margin: 100px 0 0 60px;}
+
+.con_box3_2{width: 1200px; overflow: hidden; height: 448px;}
+.con_box3_2 img{width: 398px; height: 398px; border-radius: 50%; float: right; transition: all .5s; 
+    animation: circular-jump 8s 0s linear infinite;}
+.con_box3_2 .text{float: right; width: 620px; margin: 100px 80px 0 0; text-align: right;}
+
+.con_box4{width: 1200px; margin-bottom: 150px;}
+.con_box4 img{width: 1200px; height: 485px;}
+.con_box4 .text{overflow: hidden; width: 1200px; background: #fafafa; text-align: center;
+    border-bottom: #ccc dashed 1px;}
+.con_box4 .text dt{margin-top: 80px;}
+.con_box4 .text dd{margin: 0 100px 100px 100px;}
+.con_box4 .text1{float: left; width: 599px; border-right: #ccc dashed 1px;}
+.con_box4 .text2{float: left; width: 599px;}

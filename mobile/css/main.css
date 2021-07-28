@@ -1,0 +1,104 @@
+/* CSS Document */
+
+.main{
+    width: 100%;
+    position: relative;
+    margin-bottom: 90px;
+}
+.main .slides li{position: relative;}
+.main .slides li p{position: absolute; top: 0; left: 0; text-align: center;
+    color: #fff; font-size: 25px; width: 100%; height: 100%; padding-top: 70%;
+    line-height: 2em; font-weight: 500;
+    font-family: 'Roboto', sans-serif; font-weight:400}
+.main .slides li p span{display: block; font-family: 'Noto Sans KR', sans-serif; font-weight:400; 
+    font-size: 16px;}
+
+
+#content{font-family: 'Noto Sans KR', sans-serif; font-weight:400;}
+#content .title{text-align: center; font-size: 25px; font-weight: 500; margin-bottom: 30px;}
+#content .sub_text{text-align: center; font-size: 16px; line-height: 1.8em;}
+
+.management{height: 490px; margin-bottom: 120px;}
+.management .sub_text { margin-bottom: 90px;}
+.management .mng_con{margin: 0 20px; position: relative;}
+.management .mng_con li{width: 50%; height: 208px; position: absolute;}
+.management .mng_con li p{font-size: 16px; color: #fff; margin-bottom: 20px;}
+.management .mng_con li a{border: 1px solid #fff; color: #fff; padding: 5px 0;
+    display: block; width: 100px; text-align: center; font-size: 14px;}
+.management .ethical{background: url(../images/ethicalx2.png) center no-repeat;
+    background-size: cover;}
+.management .ethical p{margin: 110px 0 0 20px; }
+.management .ethical a{margin-left: 20px;}
+.management .social{background: url(../images/socialx2.png) center no-repeat;
+    background-size: cover; right: 0; top: 50px;}
+.management .social p{text-align: right; margin: 20px 20px 0 0;}
+.management .social a{display: block; float: right; margin-right: 20px;}
+
+.special{position: relative;  overflow: hidden; margin-bottom: 120px;}
+.special .sub_text{margin-bottom: 90px;}
+.special span{font-size: 14px;}
+.swiper-container {
+    height: 100%;
+    padding: 0;
+  }
+  .swiper-slide {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    padding-bottom: 150px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide img{width: 297px; height: 207px; border-radius: 10px;}
+  #content .swiper-slide .text_box {
+    position: absolute;
+    bottom: 40px;
+    line-height: 2em;
+}
+  .swiper-slide strong{font-family: 'Roboto', sans-serif; font-size: 20px; display: block;}
+  
+
+.movie{margin-bottom: 120px;}
+.movie  h3{ margin-bottom: 50px; text-align: center; font-size: 25px; font-weight: 500;}
+.video-container {position: relative; padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden; }
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.history{margin-bottom: 120px; color: #fff; text-align: center;}
+.history h3{text-indent: -999px; }
+.history .history_con{background: url(../images/historyx2.png) center bottom no-repeat; width: 90%;
+    height: 352px; background-size: cover; margin: 0 5%; border-radius: 30px;
+    padding: 60px 0; position: relative;}
+.history span{font-family: 'Roboto', sans-serif; font-size: 25px; font-weight: 500;}
+.history p{margin-bottom: 60px; font-size: 16px; line-height: 2em;}
+.history a{color: #fff; border: 1px solid #fff; font-size: 14px; padding: 5px;}
+
+.community{margin-bottom: 120px; padding: 40px; background: #fafafa; }
+.community h3{margin-bottom: 50px; text-align: center; font-size: 25px; font-weight: 500;}
+.community ul{overflow: hidden; width: 266px; margin: 0 auto;}
+.community ul li{float: left; margin-right: 20px;}
+.community ul li p{text-align: center; margin-top: 20px; font-size: 15px;}
+.community ul li:last-child{margin-right: 0;}
+.community ul li img{width: 69px; height: 69px;}
+.community ul li img:first-child{margin-left: 3px;}

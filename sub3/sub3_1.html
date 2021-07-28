@@ -1,0 +1,233 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGV:경영정보</title>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/sub3_1content.css">
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+
+
+    <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+
+</head>
+<body>
+  
+
+<div class="wrap">
+   <!-- 서브 헤더영역 -->
+   <? include "../common/sub_head.html"?>
+
+    <div class="visual">
+        <img src="common/images/visual.jpg" alt="비주얼이미지">
+    </div>
+
+    <div class="sub_menu">
+        <h3>투자정보</h3>
+        <p>investment information</p>
+        <ul>
+            <li class="current"><a href="sub3_1.html">경영정보</a></li>
+            <li><a href="sub3_2.html">재무정보</a></li>
+        </ul>
+    </div>
+
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                HOME &gt; 투자정보 &gt; <strong>경영정보</strong>
+            </div>
+            <h2>경영정보</h2>
+            <img src="../sub1/common/images/slash.png" alt="slash">
+        </div>
+
+        <div class="content_area">
+            <div class="directors">
+                <h3>이사회 구성</h3>
+                <table class="directors_table">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="first">직책</th>
+                            <th scope="col">대표이사</th>
+                            <th scope="col">사내이사</th>
+                            <th colspan="3" scope="col" class="last">사외이사</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="first">성명</th>
+                            <td>허민회</td>
+                            <td>정승욱</td>
+                            <td>오준</td>
+                            <td>김세형</td>
+                            <td class="last">황이석</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="first">국적</th>
+                            <td>대한민국</td>
+                            <td>대한민국</td>
+                            <td>대한민국</td>
+                            <td>대한민국</td>
+                            <td class="last">대한민국</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="first">비고</th>
+                            <td>상근, 의장</td>
+                            <td>상근</td>
+                            <td>비상근</td>
+                            <td>비상근</td>
+                            <td class="last">비상근</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="first">선임일</th>
+                            <td>2021.03.29</td>
+                            <td>2021.03.29</td>
+                            <td>2021.03.29</td>
+                            <td>2021.03.29</td>
+                            <td class="last">2019.03.27</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="first">임기만료일</th>
+                            <td>2024년 3월 주총</td>
+                            <td>2024년 3월 주총</td>
+                            <td>2024년 3월 주총</td>
+                            <td>2024년 3월 주총</td>
+                            <td class="last">2022년 3월 주총</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="construction">
+                <h3>한국기업지배구조원(KCGS)의 기업지배구조 평가등급 결과</h3>
+                <table class="construction_table">
+                    <thead>
+                        <tr>
+                            <th scope="col" colspan="6" class="first">한국기업지배구조원(KCGS)의 기업지배구조 평가등급 결과</th>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="first">구분</th>
+                            <th scope="col">2016년</th>
+                            <th scope="col">2017년</th>
+                            <th scope="col">2018년</th>
+                            <th scope="col">2019년</th>
+                            <th scope="col" class="last">2020년</th>
+                        </tr>
+                    </thead>                    		    
+                    <tbody>
+                        <tr>                    				    
+                            <th scope="row" class="first">지배구조 평가등급</th>
+                            <td>B</td>
+                            <td>B</td>
+                            <td>B+</td>
+                            <td>B+</td>
+                            <td class="last">A</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="first">환경(등급)</th>
+                            <td>48점(C)</td>
+                            <td>5점(D)</td>
+                            <td>108점(B)</td>
+                            <td>31.5% (B)</td>
+                            <td class="last">30.9% (B)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="first">사회(등급)</th>
+                            <td>124점(B+)</td>
+                            <td>110점(B+)</td>
+                            <td>106점(B+)</td>
+                            <td>40.2% (B+)</td>
+                            <td class="last">50.5% (A)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="first">지배구조(등급)</th>
+                            <td>72점(C)</td>
+                            <td>112점(B+)</td>
+                            <td>131점(A)</td>
+                            <td>49.0% (A)</td>
+                            <td class="last">55.0% (A)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="allocation">
+                <h3>배당 정보</h3>
+                <table class="allocation_table">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="first"></th>
+                            <th scope="col">2015년</th>
+                            <th scope="col">2016년</th>
+                            <th scope="col">2017년</th>
+                            <th scope="col">2018년</th>
+                            <th scope="col" class="last">2019년***</th>
+                        </tr>
+                    </thead>                    		    
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="first">배당총액(백만원)</th>
+                            <td>7,406</td>
+                            <td>7,406</td>
+                            <td>7,406</td>
+                            <td>4,232</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="first">배당종류</th>
+                            <td>현금배당</td>
+                            <td>현금배당</td>
+                            <td>현금배당</td>
+                            <td>현금배당</td>
+                            <td class="last">-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="first">주당 배당금</th>
+                            <td>350</td>
+                            <td>350</td>
+                            <td >350</td>
+                            <td>200</td>
+                            <td class="last">-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="first">배당성향(%)*</th>
+                            <td>14.3</td>
+                            <td>60</td>
+                            <td>-527.9</td>
+                            <td>-3.0</td>
+                            <td class="last">-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="first">배당수익률(%)**</th>
+                            <td>0.3</td>
+                            <td>0.5</td>
+                            <td>0.5</td>
+                            <td>0.5</td>
+                            <td class="last">-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </article>
+
+    <!-- 서브 푸터영역 -->
+    <? include "../common/sub_foot.html" ?>
+  </div>
+
+  <!-- JQuery -->
+  <script src="../common/js/jquery-1.12.4.min.js"></script>
+  <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+  <script src="../common/js/fullnav.js"></script>
+</body>
+</html>

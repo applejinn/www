@@ -1,0 +1,46 @@
+.content_area{overflow: hidden; font-family: 'Noto Sans KR', sans-serif; font-weight:400;
+   }
+#content .content_area h3 , h4{font-family: 'Noto Sans KR', sans-serif; font-weight:500; color: #333;
+    font-size: 40px; text-align: left; margin-bottom: 50px;}
+
+.content_area{width: 1200px; overflow: hidden; margin-bottom: 100px; position: relative;}
+
+
+.left{float: left; width: 650px;}
+.left ul{background: url(../images/content3/global_map.jpg) 10px 100px no-repeat; width: 550px;
+    height: 330px; overflow: hidden; margin-left: 100px;}
+.left li{font-size: 22px; position: relative; line-height: 2em; margin-top: 40px;
+    float: left;}
+.left li a{ color: #333; margin-right: 20px;}
+.left li:hover a{background: #ededed; padding: 1px 3px 2px;}
+.left .current{color: #333; font-size: 1.1em; padding: 5px 13px 6px 13px; margin-left: 38px; transition: all .5s; background: #ededed;}
+.left .current::before{content: ''; width: 1px; height: 25px; background: #333; position: absolute; 
+    top: 15px; left: 22px;}
+.left .current::after{content: ''; width: 9px; height: 9px; border-radius: 50%; background: #e8171f; 
+    position: absolute; top: 15px; left: 18px;}
+
+
+
+
+
+.right{float: right; width: 500px;}
+.right h3{}
+.right ul li img{margin-left: 50px; width: 400px; height: 230px;}
+.right .flag{width: 65px; height: 65px; margin-right: 10px;}
+
+table{width: 400px; margin: 50px 0 50px 50px;}
+thead{border-top: 2px solid #666;}
+thead tr th{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; 
+    padding: 10px 5px; font-weight: 500;background: #eaeaea;}
+tbody{border-bottom: 1px solid #ccc;}
+tbody th{font-weight: 500; border-right: 1px solid #ccc; border-bottom: :1px solid #ccc;}
+tbody td{text-align: center; color: #333; border-bottom: 1px solid #ccc;
+border-right: 1px solid #ccc; padding: 10px 0; font-size: 16px;}
+tbody .first{border-top: 1px solid #ccc;}
+.last{border-right: 0; padding: 0 10px;}
+.content_area .right .fas{font-size: 1.2em; color: #666;} 
+
+.navOn{position: fixed; top: 0; z-index:60;}
+.navOn a{transition: all .5s;}
+.navOn .spy{background: #ededed; font-size: 1.2em;} 
+

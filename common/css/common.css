@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif;
+  color: #333}
+html{font-size: 16px;}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+
+
+  /* 헤드라인 폰트 연결 */
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+  /* font-family: 'Nanum Gothic', sans-serif; font-weight:700 */
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500&display=swap');
+  /* font-family: 'Noto Sans KR', sans-serif; font-weight:400 */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+  /* font-family: 'Roboto', sans-serif; font-weight:400 */
+
+/* 스킵네비게이션 */
+#skipNav{position:relative;width:100%;overflow:hidden; z-index: 10;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+      overflow:hidden; text-align:center; text-decoration:none; color:#333; font-size:16px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+      height:auto;padding:10px 0; background: #f2f2f2;}
+
+/* 헤더공통영역 */
+.wrap{width: 100%; overflow: hidden;}
+
+#headerArea{width: 100%; position: fixed; z-index: 50;height: 200px; transition: background .5s;}
+#headerArea:hover #gnb ul.dropdownmenu li a.depth1{color: #333;}
+#headerArea::before{content: ''; display: block; width: 100%; height: 34px; background: #e8171f; 
+      position: absolute; left: 0; top: 0; box-shadow: 0 0 10px #999;}      
+#headerArea .header_inner{width: 1200px; margin: 0 auto;}
+
+#headerArea .topMenu{overflow: hidden; height: 34px; position: relative}
+#headerArea .login_join{position: absolute; right: 0; top: 0; margin-top: 10px;}
+#headerArea .login_join ul{overflow: hidden;}
+#headerArea .login_join li{float: left; font-family: 'Nanum Gothic', sans-serif; 
+      font-weight:400; font-size: 0.9em; margin-right: 48px; color: #fff;}
+#headerArea .login_join ul .last{margin-right: 0}  
+#headerArea .login_join a{color: #fff;}
+
+#headerArea .logo{width: 1200px; height: 70px;}
+#headerArea .logo a{display: block; width: 113px; height: 90px; background: url(../images/logo.png) 0 0 no-repeat;
+      text-indent: -999px; overflow: hidden; margin: 25px auto 0 auto;}
+
+
+
+/*gnb영역*/      
+#gnb{clear: both; width: 1200px; font-family: 'Nanum Gothic', sans-serif;}
+#gnb .dropdownmenu{font-size: 22px; float: left;}
+#gnb .dropdownmenu li.menu{position:relative; float:left; width: 16.66%; padding: 20px 0; height: 200px;
+      position: relative;}
+#gnb .dropdownmenu li a.depth1{text-align: center; display: block; width: 200px; color: #fff;}
+#gnb .dropdownmenu li a.spy{color: #333;}
+#gnb .dropdownmenu li a.depth1::before{content: ''; width: 10px; height: 10px; border-radius: 50%;
+      opacity: 0; position: absolute; left: 45px; top: 10px; transition: all .5s; background: #e8171f;}
+#gnb .dropdownmenu li:hover a.depth1::before{opacity: 1;}
+#gnb .dropdownmenu .m4 a.depth1::before{left: 25px;}
+
+/* 2depth */
+#gnb .dropdownmenu li ul{width:200px; position:absolute; top:57px; left:0;
+      line-height:1.5em; display:none; font-weight: 400;}
+#gnb .dropdownmenu li ul li{text-align: center;}
+#gnb .dropdownmenu li ul li a{padding-top: 10px; transition: all .5s; font-size: 18px; width: 200px; display: block;}
+
+
+	
+/*
+#headerArea #gnb ul{overflow: hidden; margin: 0 0 25px 85px;}
+#headerArea #gnb li{float: left; margin-right: 95px; text-transform: uppercase;}
+#headerArea #gnb li a{color: #fff;}
+#headerArea #gnb .last{margin-right: 0;}
+*/
+
+
+
+/* 푸터공통영역 */
+#footerArea{height: 255px; background: #333;}
+#footerArea .footer_inner{width: 1200px; height: 250px; margin: 0 auto; position: relative;}
+#footerArea .footer_top ul{padding: 35px 0 25px 150px;}
+#footerArea .footer_top li a{float: left; font-family: 'Nanum Gothic', sans-serif; 
+      font-weight:300; font-size: 14px; color: #999; display: block; margin-right: 20px;}
+#footerArea .footer_bottom{overflow: hidden;}
+#footerArea .footer_bottom img{width: 113px; float: left; margin-right: 35px;}
+
+#footerArea .footer_bottom_mid{width: 800px; float: left;}
+#footerArea .footer_bottom_mid address{color: #999; text-align: justify; font-size: 14px; line-height: 1.8em;
+      font-family: 'Nanum Gothic', sans-serif; font-weight:300;}
+#footerArea .footer_bottom_mid p{color: #999; text-align: justify; font-size: 14px; line-height: 1.8em;}
+
+#footerArea .footer_right{position: absolute; top: 30px; right: 20px;}
+
+#footerArea .footer_right .sns{overflow: hidden; margin-bottom: 20px;}
+#footerArea .footer_right .sns a{margin-right: 20px; float: right; color: #999; font-size: 30px;} 
+
+.family{width:200px; height:35px; border:1px solid #999;
+      position:relative; margin:20px 0 30px 50px;}
+.family .arrow{display:block; font-size:1em; padding: 5px 0 5px 25px; color: #999; 
+      font-family: 'Nanum Gothic', sans-serif; text-transform: uppercase;}
+.family i{color: #999; margin-left: 45px;}
+.family .aList{ position:absolute; top: -178px; left: -1px; width:200px; border:1px solid #ccc;
+      display: none;}
+.family .aList li{ line-height:1.5em; border-bottom:1px solid #999;}
+.family .aList li a{display:block; padding: 5px 0 5px 20px; color: #333; background: #fafafa;
+      font-family: 'Nanum Gothic', sans-serif;}
+.family .aList li a:hover{background: #ccc}
+
+/*상단이동 버튼*/
+
+.topMove{position: fixed; left:50%; margin-left: 650px; bottom:305px;}
+.topMove i{font-size: 40px; color: #e8171f;}
+
+
+
+
+
+
+
+
+
+
+
+
+

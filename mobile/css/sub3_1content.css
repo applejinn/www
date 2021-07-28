@@ -1,0 +1,18 @@
+.visual {position: relative; margin-top: 49px; height: 150px; width: 100%; border-radius: 0 0 20px 20px;
+    background-size: cover; background: url(../images/sub3_visual.png) no-repeat center;}
+
+#content{margin: 20px 20px 80px; text-align: justify; overflow: hidden;
+    font-family: 'Noto Sans KR', sans-serif; font-weight:400;}
+
+#content h3{margin: 30px 0; font-size: 20px; font-weight: 500;}
+
+.con_box{overflow: hidden;}
+.con_box li{overflow: hidden;}
+.con_box li i{margin-right: 10px; color: #e8171f; font-size: 20px;}
+.con_box li p:first-child{font-size: 18px; margin-bottom: 20px; font-weight: 500;}
+.con_box img{border-radius: 0 20px; width: 70%; margin-bottom: 30px;}
+.con_box li:nth-child(1) img,.con_box li:nth-child(3) img,.con_box li:nth-child(5) img{float: left;}
+.con_box li:nth-child(1) p,.con_box li:nth-child(3) p,.con_box li:nth-child(5) p{float: right;}
+.con_box li:nth-child(2) img,.con_box li:nth-child(4) img{float: right;}
+.con_box p{text-align: justify; padding: 0 10px; clear: both; line-height: 2em; font-size: 16px;}
+.con_box .first{margin-top: 60px;}

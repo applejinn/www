@@ -1,0 +1,15 @@
+/* 인사말 내용 영역 */
+
+
+
+
+#content .content_area{overflow: hidden;}
+#content .content_area .title{font-family: 'Nanum Gothic', sans-serif; font-weight:400; font-size: 25px;
+    color: #333; text-align: center; display: block;}
+#content .content_area img{margin-top: 280px; width: 480px; float: left;}
+#content .content_area .text_area{margin: 120px 0 150px 0; width: 635px; float: right; 
+    font-family: 'Noto Sans KR', sans-serif; font-weight:400; }
+#content .content_area p{font-size: 20px; color: #333; text-transform: uppercase;
+    line-height: 1.8em; margin-bottom:30px;}
+#content .content_area span{color: #e8171f;}
+#content .content_area .ceo_name{font-size: 22px;}

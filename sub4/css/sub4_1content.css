@@ -1,0 +1,29 @@
+
+
+#content .content_area{overflow: hidden;}
+#content .content_area .title{font-family: 'Nanum Gothic', sans-serif; font-weight:400; font-size: 25px;
+    color: #333; text-align: center; display: block; text-transform: uppercase; line-height: 2em;}
+#content .content_area .con_box{margin: 120px 0 50px 0; width: 1200px; float: left;
+    font-family: 'Noto Sans KR', sans-serif; font-weight:400;}
+
+.con_box ul{}
+.con_box li{overflow: hidden; margin-bottom: 100px;}
+.con_box li img{width: 455px; height: 322px; border-radius: 30px;}
+.con_box dl{width: 640px; text-align: justify; position: relative;}
+.con_box dt{font-size: 25px; font-weight: 500; margin-bottom: 30px;
+    padding-top: 50px; position: relative;}
+.con_box dt i{color: #e8171f; position: absolute; left: -40px; top: 30px;
+    left: 0; top: 10px;}
+
+.con_box dt::after{content: ''; width: 430px; height: 1px; background: #e8171f; position: absolute;
+    left: 0; top: 100px;}    
+.con_box dd{font-size: 20px; line-height: 2em;}
+.con_box .list01 dl{float: right; margin-left: 50px;}
+.con_box .list01 dt::after{left: -105px;}
+.con_box .list02 dl{float: left; margin-right: 105px;}
+.con_box .list03 dl{float: right; margin-left: 50px;}
+.con_box .list03 dt::after{left: -105px;}
+.con_box .list04 dl{float: left; margin-right: 105px;}
+.con_box .list04 dt::after{width: 350px;}
+.con_box .list05 dl{float: right; margin-left: 50px;}
+.con_box .list05 dt::after{left: -105px; width: 520px;}

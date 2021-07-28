@@ -1,0 +1,39 @@
+#content .content_area{margin-bottom: 150px;}
+#content .content_area{font-family: 'Nanum Gothic', sans-serif; font-weight:400;line-height: 3.5em;}
+#map{width: 1200px; height: 600px; border: 3px solid #ccc; margin: 0 auto; z-index: 10;}
+
+#content .content_area{position: relative;}
+.content_area .address_box{width: 1106px; height: 158px; padding-top: 60px; overflow: hidden; z-index: 30;
+    margin-left: -550px; background: rgb(234, 41, 49, 0.98); color: #fff; position: absolute; left: 50%; top: 560px;
+    box-shadow: 3px 3px 3px #ccc;}
+.address_box dl{margin-left: 90px;}
+.address_box dt{font-size: 30px; font-weight: 700; float: left; }
+.address_box dd{font-size: 20px; font-weight: 400; float: right; margin-right: 130px;}
+
+.subway{overflow: hidden; border-bottom: 3px dotted #ccc; margin-top: 280px;} 
+.content_area h3{float: left; font-size: 25px; margin-left: 120px;}
+.subway ul{float: left; width: 230px; margin-left: 220px; position: relative;}  
+.subway ul li{margin-bottom: 30px;}
+.subway li::before{width: 40px; height: 40px; background: #fff; position: absolute;
+    border-radius: 26px;  display: block; text-align: center; line-height: 43px; font-weight: 700; left: -80px;}
+.subway .sub1::before{content: '경의중앙'; border: 6px solid #399e9f; position: absolute; 
+    font-size: 10px; color: #399e9f;}   
+.subway .sub2::before{content: '1'; border: 6px solid #345bbc; position: absolute; 
+    font-size: 20px; color: #345bbc;}     
+.subway .sub3{padding-bottom: 30px;}
+.subway .sub3::before{content: '4'; border: 6px solid #33a5eb; position: absolute; 
+    font-size: 20px; color: #33a5eb;}        
+
+.bus{overflow: hidden;}  
+.bus h3{margin-top: 80px;}
+.bus ul{overflow: hidden; padding-top: 80px;}
+.bus ul li{float: left; width: 680px; position: relative; margin-bottom: 30px;}
+.bus ul li i{font-size: 40px; float: left; position: absolute;
+    left: 171px; top: 10px;}
+.bus ul li p{margin-left: 250px; float: left; text-align: justify;}
+.bus .bus1 i{color: #2f5597;}
+.bus .bus2 i{color: #2eaf4b;}
+.bus .bus3 i{color: #8c3056;}
+
+
+

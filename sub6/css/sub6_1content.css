@@ -1,0 +1,62 @@
+#content .content_area{overflow: hidden; font-family: 'Noto Sans KR', sans-serif;}
+#content .content_area .title{font-family: 'Nanum Gothic', sans-serif; font-weight:400; font-size: 25px;
+    color: #333; text-align: center; display: block; text-transform: uppercase; margin-bottom: 120px;}
+#content .content_area h3{font-weight:500; font-size: 40px; color: #333;
+    margin: 0 0 70px 30px;}
+
+.smile_friend{position: relative; width: 1200px; height: 1000px; margin-bottom: 150px;}
+.smile_friend h3{text-align: center;}
+.smile_friend .arrow_deco{width: 24px; height: 24px; border: 1px solid #e8171f; border-radius: 14px;
+    position: absolute; left: 50%; top: 0; margin: 120px 0 0 -2px;}
+.smile_friend .arrow_deco::after{content: ''; width: 1px; height: 75px; background: #e8171f; position: absolute;
+    left: 11px; top: -20px;}
+.smile_friend img{margin: 100px 100px;}
+.smile_friend .background_box{width: 1200px; height: 500px; background: #fafafa; position: absolute;
+    left: 0; top: 480px; z-index: -10;}
+.smile_friend .smile_friend_text{text-align: center; font-size: 25px;}
+.smile_friend .smile_friend_text p{margin: 50px 0;}
+.smile_friend .smile_friend_text p span{color: #e8171f;}
+
+.talent{position: relative; margin-bottom: 150px; width: 1200px;}
+.talent h3::before{content: ''; width: 8px; height: 40px; background: #e8171f; position: absolute; 
+    top: 12px; left: 10px;}
+.talent ul{overflow: hidden;}
+.talent ul li{float: left; margin-right: 150px; width: 300px;}
+.talent ul li img{margin: 0 0 80px 22px;}
+.talent ul li dl dt{background: rgba(232,32, 31, .1); width: 280px; border-radius: 20px;
+    text-align: center; font-size: 20px; padding: 35px 0;} 
+.talent ul li dl dd{margin-top: 40px; line-height: 2em; text-align: justify;
+    font-size: 16px; width: 280px;}
+.talent ul .talent3{margin-right: 0;}
+
+.task{position: relative; height: 850px; margin-bottom: 150px;}
+.task .inner_circle{width: 540px; height: 540px; border-radius: 50%; position: absolute;
+    border: 1px #ccc dashed; top: 300px; left: 50%; margin-left: -270px;}
+.task h3::before{content: ''; width: 8px; height: 40px; background: #e8171f; position: absolute; 
+    top: 12px; left: 10px;}
+.task ul{position: relative;}
+.task li{position: relative; width: 262px; height: 262px; border-radius: 50%;
+    border: 1px solid #e8171f;}
+.task ul .task1{position: absolute; left: 455px; top: 30px; 
+    background: url(../images/content1/task1.jpg);}
+.task ul .task2{position: absolute; left: 180px; top: 400px;
+    background: url(../images/content1/task2.jpg);}
+.task ul .task3{position: absolute; left: 720px; top: 400px;
+    background: url(../images/content1/task3.jpg);}
+.task li span{display: block; position: absolute; left: 40px; top: 90px; font-size: 20px;
+    font-weight: 500; color: #fff; text-align: center; line-height: 2em;}
+
+.welfare{position: relative; margin-bottom: 150px;}
+.welfare h3{text-align: center;}
+.welfare .arrow_deco{width: 24px; height: 24px; border: 1px solid #e8171f; border-radius: 14px;
+    position: absolute; left: 50%; top: 0; margin: 120px 0 0 -2px;}
+.welfare .arrow_deco::after{content: ''; width: 1px; height: 75px; background: #e8171f; position: absolute;
+    left: 11px; top: -20px;}
+.welfare .welfare_box{margin-top: 150px; width: 1200px; height: 530px; background: #fafafa;}
+.welfare_box ul{overflow: hidden;}
+.welfare .welfare_box ul li{width: 270px; height: 100px; float: left; border: 2px solid #e8171f;
+    border-radius: 30px; text-align: center; font-size: 20px; margin: 100px 80px 0 0;
+    padding-top: 20px; line-height: 2em;}
+.welfare .welfare_box ul .first{margin-left: 110px;}
+.welfare .welfare_box ul .first2{margin: 100px 100px 0 280px;}
+
