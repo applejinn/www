@@ -9,7 +9,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>서대문자연사박물관-비밀번호찾기</title>
+    <title>CGV:비밀번호찾기</title>
 <link rel="stylesheet" href="../common/css/common.css">
 <link rel="stylesheet" href="../member/css/member_form.css">
 <script src="https://kit.fontawesome.com/f8a0f5a24e.js" crossorigin="anonymous"></script>
@@ -88,7 +88,7 @@
 				<div class="clear"></div>
 				
                 <div id="login_line"></div>
-				<div id="join_button"><p>아직도 회원이 아니신가요?</p><a href="../member/join.html" class="go_join">회원가입</a></div>
+				<div id="join_button"><p>아직도 회원이 아니신가요?</p><a href="../member/member_check.html" class="go_join">회원가입</a></div>
 			 </div>			 
 		</div> <!-- end of form_login -->
 
