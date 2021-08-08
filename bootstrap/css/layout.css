@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+ul, ol {
+  list-style: none;
+}
+.hidden, #skipNav {
+  position: absolute; 
+  display: block;
+  width:1px; 
+  height: 1px;
+  left:-1000%; 
+  top:0; 
+  overflow: hidden; 
+  color: #fff;
+}
+h3 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  color: #b68849;
+  width: fit-content;
+  margin: 50px auto;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #b68849;
+  background-color: transparent;
+}
+section p {
+  line-height: 1.5em;
+}
+
+
+/* 와이드 pc */
+
+.container-fluid {
+  padding: 0;
+}
+.navbar {
+  padding: 10px 80px 5px;
+}
+.navbar-default {
+  background-color: rgba(0, 0, 0, .8);
+  border: none;
+}
+.navbar h1 img {
+  width: 90px;
+  margin-top: -30px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 22px;
+  padding-top: 25px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #b68849;
+}
+p.sub_text {
+  font-size: 20px;
+  text-align: center;
+  margin: 30px 0 80px;
+  padding: 0 30px;
+}
+ul.row {
+  padding: 0;
+}
+span.gold {
+  display: block;
+  font-family: 'Kumar One Outline', cursive;
+  color: #b68849;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+
+#about {
+  margin-bottom: 150px;
+}
+#about h3 {
+  margin: 100px auto 80px;
+}
+#about .list01 {
+  margin-bottom: 80px;
+}
+#about .list02 p {
+  text-align: right;
+}
+#about .list02 span {
+  text-align: right;
+}
+
+
+#lookbook {
+  margin-bottom: 150px;
+}
+#lookbook .title_wrap {
+  background-image: url("../images/title_bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 30px 100px 20px;
+  margin-bottom: 80px;
+}
+#lookbook h3 {
+  color: #fff;
+}
+#lookbook .title_wrap p {
+  color: #fff;
+}
+
+
+#campaign {
+  margin-bottom: 150px;
+}
+#campaign h3{
+  margin: 100px auto;
+}
+#campaign .gold {
+  text-align: right;
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+#campaign .list01 {
+  margin-bottom: 80px;
+}
+#campaign .list01 p {
+  text-align: justify;
+}
+#campaign .list02 p {
+  text-align: left;
+}
+
+
+#inside {
+  margin-bottom: 150px;
+  text-align: left;
+  box-sizing: border-box;
+}
+#inside h3 {
+  margin: 100px auto;
+
+}
+#inside .list01 {
+  margin-bottom: 50px;
+}
+#inside .card {
+  border: 2px solid #b68849;
+  box-sizing: border-box;
+  padding: 20px;
+}
+#inside .btn-primary {
+  background-color: #b68849;
+  border-color: #b68849;
+}
+#inside .card-body h5 {
+  margin-top: 20px;
+}
+#inside .card-text {
+  margin: 20px 0;
+}
+
+#myBtn {
+  width: 100px;
+  height: 62px;
+  padding: 7px 0 0 0;
+  background-color: transparent;
+  background-image: url(../images/topBtn.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  border: none;
+  display: none;
+  position: fixed;
+  bottom: 65px;
+  right: 40px;
+  z-index: 99;
+  cursor: pointer;
+  color: #333;
+  font-weight: 700;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
+footer img {
+  width: 120px;
+  margin: 30px auto;
+}
+footer p {
+  margin-bottom: 50px;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+/* 일반pc */
+@media screen and (max-width:1199px) {
+
+}
+
+/* 테블릿 */
+@media screen and (max-width:991px) {
+  #lookbook img {
+    margin-bottom: 20px;
+  }
+  #inside .card {
+    margin-bottom: 20px;
+  }
+}
+
+/* 소형테블릿 */
+@media screen and (max-width:767px) {
+  .container {
+    padding: 0 50px;
+  }
+  .container-fluid p.text-center {
+    padding: 0 50px;
+  }
+  #campaign .list01 p {
+    margin-top: 30px;
+  }
+  #campaign .list01 {
+    margin-bottom: 0;
+  }
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+  p.sub_text {
+    font-size: 16px;
+    text-align: center;
+    margin: 30px 0 80px;
+    padding: 0 10px;
+  }
+  #lookbook .title_wrap {
+    padding: 20px 20px 10px;
+    margin-bottom: 80px;
+  }
+}
