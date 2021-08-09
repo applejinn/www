@@ -39,6 +39,15 @@ img {
 section p {
   line-height: 1.5em;
 }
+.delay-05s {
+  animation-delay: .5s;
+}
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { 
+  visibility: hidden; 
+}
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { 
+  visibility: visible; 
+}
 
 
 /* 와이드 pc */
