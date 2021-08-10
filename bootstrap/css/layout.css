@@ -163,9 +163,12 @@ span.gold {
   margin-bottom: 50px;
 }
 #inside .card {
-  border: 2px solid #b68849;
   box-sizing: border-box;
+}
+#inside .card-body {
   padding: 20px;
+  margin: 20px;
+  border: 2px solid #b68849;
 }
 #inside .btn-primary {
   background-color: #b68849;
@@ -181,22 +184,20 @@ span.gold {
 #myBtn {
   width: 100px;
   height: 62px;
-  padding: 7px 0 0 0;
-  background-color: transparent;
+  padding-top: 25px;
   background-image: url(../images/topBtn.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  outline: none;
-  border: none;
-  display: none;
   position: fixed;
   bottom: 65px;
   right: 40px;
   z-index: 99;
-  cursor: pointer;
   color: #333;
   font-weight: 700;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
 }
 
 footer {
@@ -230,6 +231,12 @@ footer p {
 
 /* 소형테블릿 */
 @media screen and (max-width:767px) {
+  .navbar {
+    padding: 15px 0 0 0;
+  }
+  .navbar h1 img {
+    width: 70px;
+  }
   .container {
     padding: 0 50px;
   }

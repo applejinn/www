@@ -41,7 +41,7 @@
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
 </head>
-<body id="home" data-spy="scroll" data-target="#navbar-scroll" data-offset="50">
+<body id="topMove" data-spy="scroll" data-target="#navbar-scroll" data-offset="50">
     <div id="skipNav">
         <a href="#content">본문 바로가기</a>
         <a href="#navbar">글로벌 네비게이션 바로가기</a>
@@ -217,10 +217,10 @@
             <section id="inside" class="wp4 delay-05s">
                 <h3>INSIDE</h3>
                 <div class="container">
-                  <div class="card-group row list01 col-md-offset-1">
-                    <div class="card col-md-3">
-                      <img src="./images/inside01.png" class="card-img-top" alt="인사이드 이미지1">
+                  <div class="card-group row list01">
+                    <div class="card col-md-4">
                       <div class="card-body">
+                        <img src="./images/inside01.png" class="card-img-top" alt="인사이드 이미지1">
                         <h5 class="card-title">WESTWOOD WORLD</h5>
                         <p class="card-text">
                           WESTWOOD ACTIVISM 
@@ -251,9 +251,9 @@
 
                       </div>
                     </div>
-                    <div class="card col-md-3 col-md-offset-1">
-                      <img src="./images/inside02.png" class="card-img-top" alt="인사이드 이미지2">
+                    <div class="card col-md-4">
                       <div class="card-body">
+                        <img src="./images/inside02.png" class="card-img-top" alt="인사이드 이미지2">
                         <h5 class="card-title">WESTWOOD WORLD</h5>
                         <p class="card-text">
                           A SCOTTISH SYMBOL
@@ -284,9 +284,9 @@
 
                       </div>
                     </div>
-                    <div class="card col-md-3 col-md-offset-1">
-                      <img src="./images/inside03.png" class="card-img-top" alt="인사이드 이미지3">
+                    <div class="card col-md-4">
                       <div class="card-body">
+                        <img src="./images/inside03.png" class="card-img-top" alt="인사이드 이미지3">
                         <h5 class="card-title">WESTWOOD WORLD</h5>
                         <p class="card-text">
                           ANTI-ARMS TRADE 
@@ -317,10 +317,10 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card-group row list02 col-md-offset-1 hidden-sm hidden-xs">
-                    <div class="card col-md-3">
-                      <img src="./images/inside04.png" class="card-img-top" alt="인사이드 이미지4">
+                  <div class="card-group row list02 hidden-sm hidden-xs">
+                    <div class="card col-md-4">
                       <div class="card-body">
+                        <img src="./images/inside04.png" class="card-img-top" alt="인사이드 이미지4">
                         <h5 class="card-title">WESTWOOD WORLD</h5>
                         <p class="card-text">
                           THE WEATHERMAN 
@@ -350,9 +350,9 @@
 
                       </div>
                     </div>
-                    <div class="card col-md-3 col-md-offset-1">
-                      <img src="./images/inside05.png" class="card-img-top" alt="인사이드 이미지5">
+                    <div class="card col-md-4">
                       <div class="card-body">
+                        <img src="./images/inside05.png" class="card-img-top" alt="인사이드 이미지5">
                         <h5 class="card-title">WORLD'S END</h5>
                         <p class="card-text">
                           CARRY ON KILTS <br>
@@ -384,9 +384,9 @@
 
                       </div>
                     </div>
-                    <div class="card col-md-3 col-md-offset-1">
-                      <img src="./images/inside06.png" class="card-img-top" alt="인사이드 이미지6">
+                    <div class="card col-md-4">
                       <div class="card-body">
+                        <img src="./images/inside06.png" class="card-img-top" alt="인사이드 이미지6">
                         <h5 class="card-title">SHOWS</h5>
                         <p class="card-text">
                           KRONTHALER SS19<br>
@@ -421,7 +421,7 @@
 
         </article>
         <footer id="footerArea" class="container-fluid">
-          <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+          <a id="myBtn" href="#topMove" onclick="$('#topMove').animatescroll();"><span>TOP</span></a>
           <img src="./images/logo2.png" alt="logo">
           <p class="text-center">
             지인터내셔날(주) 서울특별시 강남구 논현로133길 13, 2층(논현동,권훈빌딩) 사업자 등록번호 211-88-72607 <br>
@@ -439,13 +439,14 @@
           keyboard: false
         })
     </script>
+    
     <script>
       //Get the button
       var mybutton = document.getElementById("myBtn");
-      
+
       // When the user scrolls down 20px from the top of the document, show the button
       window.onscroll = function() {scrollFunction()};
-      
+
       function scrollFunction() {
         if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
           mybutton.style.display = "block";
@@ -453,13 +454,8 @@
           mybutton.style.display = "none";
         }
       }
-      
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-      </script>
+    </script>
+
       <script>
         $(document).ready(function() {
                   $('.wp1').waypoint(function() {    //스크롤링시 효과가 발생할 요소의 클래스나 아이디명.
