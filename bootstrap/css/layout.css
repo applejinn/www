@@ -62,9 +62,9 @@ section p {
   background-color: rgba(0, 0, 0, .8);
   border: none;
 }
-.navbar h1 img {
+.navbar .navbar-brand img {
   width: 90px;
-  margin-top: -30px;
+  margin-top: -15px;
 }
 .navbar-default .navbar-nav>li>a {
   color: #fff;
@@ -159,6 +159,9 @@ span.gold {
   margin: 100px auto;
 
 }
+#inside img {
+  margin-bottom: 20px;
+}
 #inside .list01 {
   margin-bottom: 50px;
 }
@@ -174,11 +177,43 @@ span.gold {
   background-color: #b68849;
   border-color: #b68849;
 }
-#inside .card-body h5 {
+#inside .card-body .card-title {
   margin-top: 20px;
 }
 #inside .card-text {
   margin: 20px 0;
+  font-size: 16px;
+}
+.modal-dialog {
+  margin: 100px auto;
+}
+.modal-content {
+  padding: 50px;
+  box-sizing: border-box;
+}
+.modal-body {
+  text-align: justify;
+  margin-top: 20px;
+}
+.modalBtn {
+  display: block;
+  width: 70px;
+  padding: 10px;
+  border: 1px solid #b68849;
+  box-sizing: border-box;
+  background-color: #b68849;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  transition: all .5s;
+}
+.modalBtn:hover {
+  background-color: #fff;
+  color: #b68849;
+}
+a:focus, a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 #myBtn {
@@ -221,6 +256,9 @@ footer p {
 
 /* 테블릿 */
 @media screen and (max-width:991px) {
+  .nav>li>a {
+    padding: 10px 8px;
+}
   #lookbook img {
     margin-bottom: 20px;
   }
@@ -232,9 +270,9 @@ footer p {
 /* 소형테블릿 */
 @media screen and (max-width:767px) {
   .navbar {
-    padding: 15px 0 0 0;
+    padding: 10px 0;
   }
-  .navbar h1 img {
+  .navbar .navbar-brand img {
     width: 70px;
   }
   .container {
