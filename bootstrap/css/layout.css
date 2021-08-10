@@ -263,4 +263,22 @@ footer p {
     padding: 20px 20px 10px;
     margin-bottom: 80px;
   }
+  #myBtn {
+    width: 75px;
+    height: 45px;
+    padding-top: 15px;
+    background-image: url(../images/topBtn.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    bottom: 65px;
+    right: 40px;
+    z-index: 99;
+    color: #333;
+    font-weight: 700;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+  }
 }
