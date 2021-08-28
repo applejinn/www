@@ -1,7 +1,8 @@
-﻿<?
+﻿<meta charset="utf-8">
+<?
            session_start();
 ?>
-<meta charset="utf-8">
+
 <?
   @extract($_GET); 
   @extract($_POST); 

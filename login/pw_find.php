@@ -58,8 +58,10 @@
 			 <div id="login2">
 				<div id="id_input_button">
 					<fieldset>
-                        <input type="text" name="name" class="find_input find_name" placeholder="이름">
-                        <input type="text" name="id" class="find_input find_id" placeholder="아이디">
+                        <label class="hidden" for="name">이름</label>
+                        <input type="text" name="name" id="name" class="find_input find_name" placeholder="이름">
+                        <label class="hidden" for="id">아이디</label>
+                        <input type="text" name="id" id="id" class="find_input find_id" placeholder="아이디">
                         <div class="telBox">
                             <label class="hidden" for="hp1">연락처 앞4자리</label>
                             <select name="hp1" id="hp1" title="휴대폰 앞4자리를 선택하세요." class="find_input">

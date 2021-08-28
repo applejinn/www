@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>SOUL</title>
+<link rel="shortcut icon"  type="image/x-icon"  href="favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+
+
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+<link rel="stylesheet" href="css/swiper.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/video.js"></script>
+<script src="js/script.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/swiper.js"></script>
+<script>
+	window.onload = function(){
+		var swiper = new Swiper('.swiper-container', {
+					 pagination: '.swiper-pagination',
+					 paginationType: 'progress',
+					 slidesPerView: 'auto',
+					 paginationClickable: true,
+					 spaceBetween: 0,
+					 freeMode: true,
+					 nextButton: '.next',
+					 prevButton: '.back'
+		 });
+	};
+</script>
+
+<script>
+	// <![CDATA[
+		try {
+			window.addEventListener('load', function(){
+	    	    setTimeout(scrollTo, 0, 0, 1); 
+	    	}, false);
+		} catch(e) {}
+	// ]]>
+</script>
+<!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+   <div id="skipNav">
+	   <a href="#content">본문바로가기</a>
+	   <a href="#gnb">네비게이션바로가기</a>
+   </div>
+
+   <div id="wrap">
+	<div class="videoBox">
+		<img class="logo" src="images/logo.png" alt="로고">
+			<video autoplay loop="100" muted   id="videoBG">
+				 <source src="images/aaa.mp4" type="video/mp4">
+			</video>
+			<img src="images/back.jpg" id="imgBG" alt="배경이미지">
+			
+			<a class="down" href="#">SCROLL DOWN</a>
+	</div>
+
+	
+	<header id="headerArea">
+	  <div class="headerInner">
+		  <h1><a href="index.html">로고</a></h1>
+		  <nav id="gnb">
+			<h2 class="hidden">글로벌네비게이션영역</h2> 
+		  	 <ul>
+		  	 	<li><h3><a href="sub1.html">trailers</a></h3></li>
+		  	 	<li><h3><a href="sub2.html">characters</a></h3></li>
+		  	 	<li><h3><a href="sub3.html">music</a></h3></li>
+		  	 	<li><h3><a href="sub4.html">gallery</a></h3></li>
+		  	 </ul>
+		  </nav>
+		</div>
+		<a class="open_menu" href="#"><i class="fas fa-bars"></i><span class="hidden">메뉴열기</span></a>
+	</header>
+	
+	<article id="content">
+		<h2 class="hidden">본문콘텐츠영역</h2>
+		<section class="about">
+			<div class="text_wrap1">
+				<h3>about <br> pixar soul</h3>
+				<p>Joe Gardner is a middle school band teacher with a love for jazz music. 
+					After a successful gig at the Half Note Club, he suddenly gets into an accident 
+					that separates his soul from his body and is transported to The Great Before, 
+					the place where all souls go before being either reincarnated as newborn babies, 
+					or transported to the Great Beyond.  
+				</p>
+			</div>
+			<div class="list01">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="list02">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="text_wrap2">
+				<p>Joe must enlist help from the other souls-in-training, 
+					like 22, a soul who has spent eons in the You Seminar,
+					 in order to get back to the Land of the Living before he dies, 
+					while also avoiding a soul-counter named Terry, 
+					who tries to bring Joe back to the Great Before.
+					Joe tries to get 22 to find something to be passionate about, but nothing works.
+				</p>
+			</div>
+		</section>
+		<section class="characters">
+			<h3>characters</h3>
+			<div class="char_wrap">
+				<div class="characters1">
+					<ul class="tab01">
+						<li class="c_1"><a href="#"><img src="images/characters01.png" alt="joe gardner"></a></li>
+						<li class="c_2"><a href="#"><img src="images/characters02.png" alt="22"></a></li>
+						<li class="c_3"><a href="#"><img src="images/characters05.png" alt="Terry"></a></li>
+					</ul>
+				</div>
+				<div class="introduce">
+						<img src="images/joegardner.png" alt="">
+					<div class="txt">
+						<p class="name">Joe Gardner</p>
+						<p class="description">A middle-school band teacher, Joe Gardner’s life hasn’t quite gone the way he’s expected. While teaching is a noble profession, his true passion is playing jazz, and he’s good. Joe believes he was born to play professionally, and though he’s 46 years old, he feels his opportunity to land a high-profile gig could come  any day. Joe has an encyclopedic knowledge of jazz history, and even if his passion for music may have hampered his social life over the years, it hasn’t hampered his confidence. He lives alone, immersing himself in what he loves best: music.</p>
+						
+					</div>
+				</div>
+				<div class="characters2">
+					<ul class="tab02">
+						<li class="c_4"><a href="#"><img src="images/characters04.png" alt="Mr.Mittens"></a></li>
+						<li class="c_5"><a href="#"><img src="images/characters03.png" alt="Libba Gardner"></a></li>
+						<li class="c_6"><a href="#"><img src="images/characters06.png" alt="Moonwind"></a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="music">
+			<div class="img_showbox1"></div>
+			<h3>music</h3>
+			<p>Released as the first single, "It's All Right" was featured on both 
+				the Soul Original Motion Picture Soundtrack and Music From 
+				and Inspired by Soul vinyl album.</p>
+			<ul>
+				<li>
+					<a href="#"><img src="./images/music_01.png" alt="Born to Play"></a>
+					<span>Born to Play <br> (Jon Batiste)</span>
+				</li>
+				<li>
+					<a href="#"><img src="./images/music_02.png" alt="Born to Play Reprise"></a>
+					<span>Born to Play Reprise <br> (Batiste)</span>
+				</li>
+				<li>
+					<a href="#"><img src="./images/music_03.png" alt="It's All Right"></a>
+					<span>It's All Right <br> (Batiste and Zack Pitt-Smith)</span>
+				</li>
+			</ul>
+
+		</section>
+		<section class="trailers">
+			<h3>trailers</h3>
+			<div class="trailers_inner">
+				<div class="img_showbox2"></div>
+				<div class="trailers1">
+					<a href="#"><img src="images/trailer01.jpg" alt="trailer1"></a>
+					<span class="title">Disney and Pixar’s Soul | Official Trailer</span>
+					<span>Pixar</span>
+				</div>
+				<ul>
+					<li>
+						<a href="#"><img src="images/trailer02.jpg" alt="trailer2"></a>
+						<span class="title">Disney and Pixar’s Soul | Official Trailer</span>
+						<span>Pixar</span>
+					</li>
+					<li>
+						<a href="#"><img src="images/trailer03.jpg" alt="trailer3"></a>
+						<span class="title">Disney and Pixar’s Soul | Official Trailer</span>
+						<span>Pixar</span>
+					</li>
+					<li>
+						<a href="#"><img src="images/trailer04.jpg" alt="trailer4"></a>
+						<span class="title">Disney and Pixar’s Soul | Official Trailer</span>
+						<span>Pixar</span>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="feature">
+            <h3>gallery</h3>
+			<div class="inWrap">
+				<div class="fInner swiper-container">
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide"><a href="#"></a></li>
+						<li class="swiper-slide"><a href="#"></a></li>
+						<li class="swiper-slide"><a href="#"></a></li>
+						<li class="swiper-slide"><a href="#"></a></li>
+						<li class="swiper-slide"><a href="#"></a></li>
+						<li class="swiper-slide"><a href="#"></a></li>
+						<li class="swiper-slide"><a href="#"></a></li>
+						<li class="swiper-slide"><a href="#"></a></li>
+						<li class="swiper-slide"><a href="#"></a></li>
+						<li class="swiper-slide"><a href="#"></a></li>
+						<li class="swiper-slide"><a href="#"></a></li>
+					</ul>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+
+				<div class="button">
+					<div class="back"><a href="#"><i class="fas fa-chevron-left"></i></a></div>
+					<div class="next"><a href="#"><i class="fas fa-chevron-right"></i></a></div>
+				</div>
+				<a class="view_more" href="sub4.html">VIEW MORE</a>
+			</div>
+			
+		  </section>
+           
+	</article>
+	
+	<footer id="footerArea">
+	    <a href="javascript:void(0);" class="topMove"><span>TOP</span></a>
+	    <img src="images/footer_logo.png" alt="푸터로고">
+	    <p>SOUL is a 2021 American 3D computer-animated film produced by Walt Disney Animation Studios and released by Walt Disney Pictures.</p>
+	    <p>© 1986-2021 DISNEY / PIXAR</p>
+	</footer>
+</div>		
+</body>
+</html>

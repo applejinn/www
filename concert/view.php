@@ -147,7 +147,7 @@
                 $img_name = "./data/".$img_name;  // './data/2021_07_22_11_00_35_0.jpg'
                 $img_width = $image_width[$i];
                 
-                echo "<img src='$img_name' width='$img_width'>"."<br><br>";
+                echo "<img src='$img_name' width='$img_width' alt='이벤트 이미지'>"."<br><br>";
             }
         }
     ?>

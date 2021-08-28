@@ -11,11 +11,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>회원가입</title>
-	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="../css/common.css">
 	<link rel="stylesheet" href="css/member_form.css">
 	
-	<script src="../common/js/jquery-1.12.4.min.js"></script>
-	<script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+	<script src="../../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../../common/js/jquery-migrate-1.4.1.min.js"></script>
 	<script src="https://kit.fontawesome.com/f8a0f5a24e.js" crossorigin="anonymous"></script>
 	
 	<script>

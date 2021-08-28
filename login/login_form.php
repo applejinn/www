@@ -19,8 +19,16 @@
                 <div class="login">
                     <div id="id_pw_input">
                         <ul>
-                            <li><i class="fas fa-user"></i><input type="text" name="id" class="login_input" placeholder="아이디를 입력해주세요" required></li>
-                            <li><i class="fas fa-lock" aria-hidden="true"></i><input type="password" name="pass" class="login_input" placeholder="비밀번호를 입력해주세요" required></li>
+                            <li>
+                                <label class="hidden" for="id">아이디</label>
+                                <i class="fas fa-user"></i>
+                                <input type="text" name="id" id="id" class="login_input" placeholder="아이디를 입력해주세요">
+                            </li>
+                            <li>
+                                <label class="hidden" for="pass">비밀번호</label>   
+                                <i class="fas fa-lock" aria-hidden="true"></i>
+                                <input type="password" name="pass" id="pass" class="pass_input" placeholder="비밀번호를 입력해주세요">
+                            </li>
                         </ul>						
                     </div>
                     

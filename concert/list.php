@@ -143,7 +143,7 @@
 			<div class="list_item">
 				<div class="list_item2">
 				   <a href="view.php?table=<?=$table?>&num=<?=$item_num?>&page=<?=$page?>">
-				       <img src="<?=$thum_img?>" alt="">
+				       <img src="<?=$thum_img?>" alt="이">
 				  </a>
 				</div>
                 <div class="list_item3">

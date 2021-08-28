@@ -140,9 +140,7 @@ label { cursor:pointer; }
     border: 1px solid #cfcfcf; text-align: center; margin-right: 20px;}
 #gnb .join span a{width: 80px; display: block; font-size: 16px;
     margin-left: 0; padding: 5px 0;}
-#gnb .join span:last-child{margin-right: 0; border: 0; background: rgba(232, 23, 31, .9);}
-#gnb .join span:last-child a{color: #fff;}
-#gnb>ul{}
+
 #gnb>ul li{text-align: justify; font-size: 20px; font-weight: 500;
 	       font-family: 'Noto Sans KR', sans-serif;  
            }

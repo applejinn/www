@@ -41,7 +41,7 @@
 						<div class='notice_text'>
 							<span class='notice_title'>event</span>
 								<a href='./$table/view.php?table=$table&num=$num'>
-									<img src='$file_copied'>
+									<img src='$file_copied' alt='이벤트 이미지'>
 									<p>$subject</p>
 								</a>
 								<span class='date'>$regist_day</span>

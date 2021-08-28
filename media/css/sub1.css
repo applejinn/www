@@ -1,0 +1,112 @@
+/* 와이드 pc  */
+
+
+#headerArea{opacity: 1; background: transparent;}
+
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+.videoBox span{text-transform: uppercase; font-size: 70px; color: #fff;
+   margin: 250px auto 0; display: block; text-align: center; font-weight: 700;
+   text-shadow: 5px 5px 5px rgba(11, 101, 214 ,.8);}
+
+#imgBG{
+    position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+
+.down{display: block; font-size: 20px; position: absolute; 
+   left:0; bottom: 20%; text-align: center; width: 100%;
+  animation:ani 1s infinite  alternate;}
+@keyframes ani {
+	0% { transform:scale(1); opacity:1; color:#fff;}
+	100% { transform:scale(1.2); opacity:0.8; color:#888;}
+}	
+.down::after{content: ""; display: block; width: 50px; height: 50px; 
+   margin: 20px auto 0; background: url(../images/scrolldown.png) no-repeat center;}
+
+
+
+.trailers{background: rgba(255,255,255,.8); padding: 0 4%; line-height: 2em;
+   box-sizing: border-box; overflow: hidden; font-family: 'Lato', sans-serif;}
+.trailers .official_list{margin-top: 100px; overflow: hidden; border-bottom: 1px solid #ccc;
+      margin-bottom: 55px;}
+.trailers .official_list li{float: left; width: 49%; padding-bottom: 50px; transition: .5s;}
+.trailers .official_list li:first-of-type{margin-right: 2%;}
+.trailers a{display: block; margin-bottom: 45px; position: relative;}
+.trailers .official_list li img{width: 100%; border-radius: 40px; transition: .5s}
+.trailers .official_list li a:hover img{filter: grayscale(1)}
+.trailers .official_list li span{display: block; width: 140px; height: 140px; background: rgba(255,255,255,.5);
+   border-radius: 50%; position: absolute; top: 50%;left: 50%; margin: -70px 0 0 -70px; transition: 1s}
+.trailers .official_list li a:hover span{background: rgba(0,0,0,.5); transform: rotate(360deg)}
+.trailers .official_list li span::after{display: block; content: ''; position: absolute;
+   width: 0; height: 0; border-top: 35px solid transparent; border-left: 60px solid #333;
+   border-bottom: 35px solid transparent; top: 35px; left: 48px; transition: .5s;
+   opacity: .8;}
+.trailers .official_list li a:hover span::after{border-left: 60px solid #0b65d6; opacity: 1;}
+.trailers p{font-size: 20px; font-weight: 500; color: #fff; margin-bottom: 30px;
+   background: #0b65d6; display: inline-block; padding: 3px 10px;}
+.trailers .official_list dl,.official_list p{margin-left: 10px;}
+.trailers .official_list dt{ font-size: 38px; color: #333; margin-bottom: 30px;
+   }
+.trailers .official_list dd{font-size: 18px; line-height: 1.8em; color: #333;}
+.trailers .clip_list{overflow: hidden; margin-bottom: 120px;}
+.trailers .clip_list li{float: left; width: 30%; margin-right: 5%; transition: .5s;}
+.trailers .clip_list li:last-of-type{margin-right: 0;}
+.trailers .clip_list li img{width: 100%; border-radius: 30px; transition: .5s}
+.trailers .clip_list li a:hover img{filter: grayscale(1)}
+.trailers .clip_list li span{display: block; width: 80px; height: 80px;
+   background: rgba(255,255,255,.5); border-radius: 50%; position: absolute; top: 50%;
+   left: 50%; margin: -40px 0 0 -40px; transition: 1s}
+.trailers .clip_list li a:hover span{background: rgba(0,0,0,.5); transform: rotate(360deg)}
+.trailers .clip_list li span::after{ display: block; content: ''; position: absolute;
+   width: 0; height: 0; border-top: 20px solid transparent; border-left: 34px solid #333;
+   border-bottom: 20px solid transparent; top: 22px; left: 28px;
+   transition: .5s; opacity: .7;}
+.trailers .clip_list li a:hover span::after{border-left: 34px solid #0b65d6;
+   opacity: 1;}
+.trailers .clip_list a{margin-bottom: 35px;}
+.trailers .clip_list p{margin-bottom: 20px;}
+.trailers .clip_list dl,.clip_list p {margin-left: 10px;}
+.trailers .clip_list dt{font-size: 35px; color: #333; line-height: 1.5em;}
+.trailers .clip_list dd{display: none;}
+
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+   .trailers .official_list{overflow: visible;}
+   .trailers .official_list li{width: 70%; margin: 0 15%; float: none;}
+   .trailers .clip_list li dt{font-size: 30px;}
+   .trailers .clip_list li dd{font-size: 18px;}
+
+}
+
+
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   .trailers .clip_list li:last-child{display: none;}
+   .trailers .clip_list li{width: 49%;}
+   .trailers .clip_list li:first-of-type{margin-right: 2%;}
+   .trailers .clip_list li:nth-child(2){margin-right: 0;}
+   .trailers .clip_list li dt{margin-bottom: 30px;}
+   .trailers .clip_list li dd{display: block;}
+}
+
+
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+   .trailers .official_list li dt{font-size: 30px;}
+   .trailers .clip_list li{width: 70%; margin: 0 15%; float: none; padding-bottom: 50px;}
+   .videoBox span{font-size: 50px;}
+   
+}

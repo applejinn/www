@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로그인</title>
-    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="css/login.css">
      <script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
 </head>
@@ -19,8 +19,16 @@
                 <div class="login">
                     <div id="id_pw_input">
                         <ul>
-                            <li><i class="fas fa-user"></i><input type="text" name="id" class="login_input" placeholder="아이디를 입력해주세요" required></li>
-                            <li><i class="fas fa-lock" aria-hidden="true"></i><input type="password" name="pass" class="login_input" placeholder="비밀번호를 입력해주세요" required></li>
+                            <li>
+                                <label class="hidden" for="id">아이디</label>
+                                <i class="fas fa-user"></i>
+                                <input type="text" name="id" id="id" class="login_input" placeholder="아이디를 입력해주세요">
+                            </li>
+                            <li>
+                                <label class="hidden" for="pass">비밀번호</label>   
+                                <i class="fas fa-lock" aria-hidden="true"></i>
+                                <input type="password" name="pass" id="pass" class="pass_input" placeholder="비밀번호를 입력해주세요">
+                            </li>
                         </ul>						
                     </div>
                     
