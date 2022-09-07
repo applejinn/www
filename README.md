@@ -6,7 +6,7 @@
 - 제작 기간 : 2021.05.01 - 2021.05.30
 - 사용 언어 : 
 
-<a href="http://applejinn.cafe24.com/">View Site</a>
+<a href="http://applejinn.cafe24.com/" target="_blank">View Site</a>
 
 ---
 
@@ -15,7 +15,7 @@
 - 제작 기간 : 2021.06.07 - 2021.06.21
 - 사용 언어 : 
 
-<a href="http://applejinn.cafe24.com/mobile/">View Site</a>
+<a href="http://applejinn.cafe24.com/mobile/" target="_blank">View Site</a>
 
 ---
 
@@ -24,7 +24,7 @@
 - 제작 기간 : 2021.06.28 - 2021.07.12
 - 사용 언어 : 
 
-<a href="http://applejinn.cafe24.com/media/">View Site</a>
+<a href="http://applejinn.cafe24.com/media/" target="_blank">View Site</a>
 
 ---
 
@@ -33,7 +33,7 @@
 - 제작 기간 : 2021.08.02 - 2021.08.04
 - 사용 언어 : 
 
-<a href="http://applejinn.cafe24.com/bootstrap/">View Site</a>
+<a href="http://applejinn.cafe24.com/bootstrap/" target="_blank">View Site</a>
 
 ---
 
@@ -42,4 +42,4 @@
 - 제작 기간 : 2021.08.09 - 2021.08.11
 - 사용 언어 : 
 
-<a href="http://applejinn.cafe24.com/wordpress/">View Site</a>
+<a href="http://applejinn.cafe24.com/wordpress/" target="_blank">View Site</a>
