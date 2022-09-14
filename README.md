@@ -4,7 +4,7 @@
 ### 1. 기업형 웹 사이트 (PC)
 - 주제 : CGV
 - 제작 기간 : 2021.05.01 - 2021.05.30
-- 사용 언어 : 
+- 사용 스킬 : HTML5, CSS3, JavaScript, jQuery, AJAX, PHP, MySql, Adobe Photoshop, W3C 웹표준 통합 마크업 검사(html/css), 웹접근성검사(K-WAH), 크로스브라우징 완료
 
 <a href="http://applejinn.cafe24.com/" target="_blank">View Site</a>
 
@@ -13,7 +13,7 @@
 ### 2. 기업형 웹 사이트 (Mobile)
 - 주제 : CGV
 - 제작 기간 : 2021.06.07 - 2021.06.21
-- 사용 언어 : 
+- 사용 스킬 : HTML5, CSS3, JavaScript, jQuery, MySql, CSS3(media query), Adobe Photoshop, W3C 웹표준 마크업 검사, 웹접근성검사(K-WAH), 대표 기기별 테스트 완료
 
 <a href="http://applejinn.cafe24.com/mobile/" target="_blank">View Site</a>
 
@@ -22,7 +22,7 @@
 ### 3. 반응형 웹 사이트
 - 주제 : 영화 'Soul'
 - 제작 기간 : 2021.06.28 - 2021.07.12
-- 사용 언어 : 
+- 사용 스킬 : Adobe Photoshop, Illustrator, HTML5, CSS3(media query), JavaScript, jQuery를 이용한 디바이스/해상도별 반응형 UI 구현, W3C 웹표준 마크업 검사, 웹접근성검사(K-WAH), 대표 기기별 테스트 완료
 
 <a href="http://applejinn.cafe24.com/media/" target="_blank">View Site</a>
 
@@ -31,7 +31,7 @@
 ### 4. Bootstrap 웹 사이트
 - 주제 : 비비안웨스트우드
 - 제작 기간 : 2021.08.02 - 2021.08.04
-- 사용 언어 : 
+- 사용 스킬 : Bootstrap을 이용한 웹사이트 구현, HTML5, CSS3, Javascript, jQuery, Adobe Photoshop, CSS3(media query)와 스크립트를 이용하여 디바이스/해상도별 반응형 UI 구현
 
 <a href="http://applejinn.cafe24.com/bootstrap/" target="_blank">View Site</a>
 
@@ -40,6 +40,6 @@
 ### 5. Wordpress 웹 사이트
 - 주제 : 블루보틀
 - 제작 기간 : 2021.08.09 - 2021.08.11
-- 사용 언어 : 
+- 사용 스킬 : Wordpress를 이용한 웹사이트 구현
 
 <a href="http://applejinn.cafe24.com/wordpress/" target="_blank">View Site</a>
