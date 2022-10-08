@@ -16,7 +16,7 @@
 
 ### 2. 기업형 웹 사이트 (Mobile)
 
-<img style="width:200px;" src="#" />
+<img style="width:200px;" src="https://user-images.githubusercontent.com/88071843/194708978-133ee387-1681-4bab-8e6e-6584e0ae94f2.gif" />
 
 - 주제 : CGV
 - 제작 기간 : 2021.06.07 - 2021.06.21
