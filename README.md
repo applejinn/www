@@ -52,5 +52,3 @@
 - 주제 : 블루보틀
 - 제작 기간 : 2021.08.09 - 2021.08.11
 - 사용 스킬 : Wordpress를 이용한 웹사이트 구현
-
-<a href="http://applejinn.cafe24.com/wordpress/" target="_blank">View Site</a>
